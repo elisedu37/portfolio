@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 // Composant
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/projects' element={<Projects />} />
                 <Route path='*' element={<p>Erreur</p>} />
             </Routes>
+            <Footer/>
         </Router>
     );
 }
