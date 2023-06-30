@@ -18,20 +18,23 @@ const Projects = () => {
                 <Breadcrumb />
             </div>
 
-            <section id='projects' className='body-font'>
+            <section id='projects' className='flex flex-col gap-4'>
                 <Categories
                     categories={categories}
                     setActiveCategory={setActiveCategory}
                     activeCategory={activeCategory}
                 />
 
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col flex-wrap w-full max-w-full gap-4'>
                     {displayedProducts.map((project, index) => (
-                        <div key={project.id} className={`flex ${index % 2 === 1 ? 'flex-row-reverse' : ''}`}>
-                            <div className=''>
-                                <img src={project.image} alt='portfolio' className='object-cover w-80 h-80' />
+                        <div
+                            key={project.id}
+                            className={`flex flex-col md:flex-row gap-4 ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
+                        >
+                            <div className='w-full md:w-80 h-80'>
+                                <img src={project.image} alt='portfolio' className='object-cover w-full md:w-80 h-80' />
                             </div>
-                            <div className=''>
+                            <div className='flex flex-col items-start flex-1 w-full gap-4 p-0 pt-6 bg-white'>
                                 <h2>{project.title}</h2>
                                 <p>{project.description}</p>
                             </div>

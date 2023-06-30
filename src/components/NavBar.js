@@ -5,6 +5,7 @@ import { Transition } from '@headlessui/react';
 // Navigation
 import { Link } from 'react-router-dom';
 import { List, X } from 'phosphor-react';
+import Pdf from '../assets/cv-elisegigot.pdf';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,7 @@ const NavBar = () => {
                 <Link to='/' onClick={() => setIsOpen(false)}>
                     <span className='text-5xl not-italic font-semibold font-dancing'>Elise Gigot .</span>
                 </Link>
-                <div onClick={toggleMenu}>
-                    {isOpen ? <X size={36} /> : <List size={36} />}
-                </div>
+                <div onClick={toggleMenu}>{isOpen ? <X size={36} /> : <List size={36} />}</div>
             </div>
 
             <Transition
@@ -44,6 +43,11 @@ const NavBar = () => {
                             <Link to='/projects' className='block text-5xl font-dancing'>
                                 Portfolio
                             </Link>
+                        </li>
+                        <li>
+                            <a href={Pdf} className='block text-5xl font-dancing' target='_blank' rel='noreferrer'>
+                                Mon CV
+                            </a>
                         </li>
                     </ul>
                 </div>
