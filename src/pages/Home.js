@@ -1,8 +1,8 @@
 const Home = () => {
     return (
-        <div className='container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10'>
-            <p className='text-3xl text-gray-700 font-bold mb-5'>Welcome!</p>
-            <p className='text-gray-500 text-lg'>React and Tailwind CSS in action</p>
+        <div className='container p-8 m-10 mx-auto bg-gray-200 border shadow rounded-xl'>
+            <p className='mb-5 text-3xl font-bold text-gray-700'>Welcome!</p>
+            <p className='text-lg text-gray-500'>React and Tailwind CSS in action</p>
         </div>
     );
 };

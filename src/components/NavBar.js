@@ -14,7 +14,7 @@ const NavBar = () => {
 
     return (
         <div className='relative'>
-            <div className='flex w-full justify-between m-auto sticky top-0 z-50'>
+            <div className='sticky top-0 z-50 flex justify-between w-full m-auto'>
                 <Link
                     to='/'
                     className='block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 '
@@ -43,7 +43,7 @@ const NavBar = () => {
                 leaveFrom='opacity-100'
                 leaveTo='opacity-0'
             >
-                <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-20'>
+                <div className='fixed inset-0 z-20 flex items-center justify-center bg-black bg-opacity-50'>
                     <ul>
                         <li>
                             <Link
