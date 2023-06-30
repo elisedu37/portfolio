@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@layer components {
+    html {
+        font-family: 'nunito', sans-serif;
+    }
+}
+
+@layer base {
+    h1 {
+        @apply m-0 text-5xl;
+    }
+
+    h2 {
+        @apply m-0 text-4xl;
+    }
+
+    h3 {
+        @apply m-0 text-3xl;
+    }
+
+    h4 {
+        @apply m-0 text-lg sm:text-2xl;
+    }
+}

@@ -1,17 +1,14 @@
+import { GithubLogo, LinkedinLogo } from 'phosphor-react';
+
 const Footer = () => {
     return (
-        <footer class='bg-white rounded-lg shadow m-4 dark:bg-gray-800'>
-            <div class='w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between'>
-                <span class='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
-                    © 2023 . All Rights Reserved.
-                </span>
-                <ul class='flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0'>
-                    <li>
-                        <a href='https://flowbite.com/' class='mr-4 hover:underline md:mr-6 '>
-                            About
-                        </a>
-                    </li>
-                </ul>
+        <footer>
+            <div className='w-full p-4 mx-auto md:flex md:items-center md:justify-between'>
+                <span className='text-sm'>© 2023 . All Rights Reserved.</span>
+                <div className='flex flex-wrap items-center'>
+                    <LinkedinLogo size={36} />
+                    <GithubLogo size={36} />
+                </div>
             </div>
         </footer>
     );
