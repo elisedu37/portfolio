@@ -15,11 +15,11 @@
 
 @layer base {
     h1 {
-        @apply m-0 text-5xl;
+        @apply m-0 text-5xl font-dancing;
     }
 
     h2 {
-        @apply m-0 text-4xl;
+        @apply flex flex-row items-start p-2 pr-4 text-2xl bg-orange-200 rounded-r-full font-dancing;
     }
 
     h3 {

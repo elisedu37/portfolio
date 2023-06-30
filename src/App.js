@@ -4,19 +4,24 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-// Composant
+import Legacy from './pages/Legacy';
+import InvalidePage from './components/InvalidePage';
+// Composants
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 function App() {
+    const projectName = 'portfolio';
+
     return (
-        <Router>
+        <Router basename={`/${projectName}`}>
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/projects' element={<Projects />} />
-                <Route path='*' element={<p>Erreur</p>} />
+                <Route path='/legacy' element={<Legacy />} />
+                <Route path='*' element={<InvalidePage />} />
             </Routes>
             <Footer />
         </Router>

@@ -4,7 +4,9 @@ import { useState } from 'react';
 import { Transition } from '@headlessui/react';
 // Navigation
 import { Link } from 'react-router-dom';
+// Icones
 import { List, X } from 'phosphor-react';
+// Médias
 import Pdf from '../assets/cv-elisegigot.pdf';
 
 const NavBar = () => {
@@ -15,7 +17,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className='relative'>
+        <div className='relative pb-4'>
             <div className='sticky top-0 z-50 flex items-center justify-between w-full m-auto'>
                 <Link to='/' onClick={() => setIsOpen(false)}>
                     <span className='text-5xl not-italic font-semibold font-dancing'>Elise Gigot .</span>
