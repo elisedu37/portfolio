@@ -5,6 +5,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Categories from '../components/Categories';
 // Datas
 import { projects } from '../data/projects';
+import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
     const [activeCategory, setActiveCategory] = useState('');
@@ -31,7 +32,7 @@ const Projects = () => {
                 <Breadcrumb />
             </div>
 
-            <section id='projects' className='flex flex-col gap-8'>
+            <section id='projects' className='flex flex-col gap-8 m-auto max-w-screen-2xl'>
                 <Categories
                     categories={categories}
                     setActiveCategory={setActiveCategory}
@@ -40,23 +41,7 @@ const Projects = () => {
 
                 <div className='flex flex-col flex-wrap w-full max-w-full gap-8'>
                     {visibledProjects.map((project, index) => (
-                        <div
-                            key={project.id}
-                            className={`flex flex-col md:flex-row gap-8 ${
-                                index % 2 === 1 ? 'md:flex-row-reverse' : ''
-                            }`}
-                        >
-                            <div className='w-full md:w-80 h-80'>
-                                <img src={project.image} alt='portfolio' className='object-cover w-full md:w-80 h-80' />
-                            </div>
-                            <div className='flex flex-col items-start flex-1 w-full gap-4 p-0 pt-6 bg-white'>
-                                <h2>{project.title}</h2>
-                                <div className='flex flex-col gap-4 px-12 py-4'>
-                                    <p>{project.description}</p>
-                                    <button className='px-4 py-2 bg-orange-200 rounded w-fit'>Actions</button>
-                                </div>
-                            </div>
-                        </div>
+                        <ProjectCard key={index} project={project} index={index} />
                     ))}
 
                     {visibleProjects < displayedProjects.length && (

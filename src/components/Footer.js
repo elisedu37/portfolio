@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className='pt-8'>
+        <footer className='pt-8 m-auto max-w-screen-2xl'>
             <div className='w-full mx-auto md:flex md:items-center md:justify-between'>
                 <span>
                     © 2023 Elise GIGOT. | Tous droits réservés. |<Link to='/legacy'> Mentions légales</Link>
@@ -17,10 +17,10 @@ const Footer = () => {
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <LinkedinLogo size={24} />
+                        <LinkedinLogo size={32} />
                     </a>
                     <a href='https://github.com/elisedu37' className='instagram' target='_blank' rel='noreferrer'>
-                        <GithubLogo size={24} />
+                        <GithubLogo size={32} />
                     </a>
                 </div>
             </div>

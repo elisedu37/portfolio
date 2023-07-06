@@ -18,11 +18,13 @@ const NavBar = () => {
 
     return (
         <div className='relative pb-4'>
-            <div className='sticky top-0 z-50 flex items-center justify-between w-full m-auto'>
+            <div className='sticky top-0 z-50 flex items-center justify-between w-full m-auto max-w-screen-2xl'>
                 <Link to='/' onClick={() => setIsOpen(false)}>
                     <span className='text-5xl not-italic font-semibold font-dancing'>Elise Gigot .</span>
                 </Link>
-                <div onClick={toggleMenu}>{isOpen ? <X size={36} /> : <List size={36} />}</div>
+                <div onClick={toggleMenu}>
+                    {isOpen ? <X size={36} weight='bold' /> : <List size={36} weight='bold' />}
+                </div>
             </div>
 
             <Transition

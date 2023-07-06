@@ -5,7 +5,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Legacy from './pages/Legacy';
-import InvalidePage from './components/InvalidePage';
+import InvalidePage from './pages/InvalidePage';
 // Composants
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
