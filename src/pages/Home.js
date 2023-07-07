@@ -34,32 +34,53 @@ const Home = () => {
                 </div>
             </CardTemplate>
             <CardTemplate index={1} image={designer}>
-                <h2>3 compétences, 3 projets</h2>
-                <>
-                    <h3>Challenge “Daily UI”</h3>
-                    <p>
-                        En 2022, j’ai participé au challenge "Daily UI", ce qui m'a permis d'acquérir les bases en
-                        design. A la fin de ce défi, j'ai continué à créer mes propres concepts d'interfaces, en
-                        réfléchissant à la fois à l'UI et à l'UX. Aujourd'hui, mes compétences en webdesign continuent
-                        de s'améliorer grâce à la pratique.
-                    </p>
-                </>
-                <>
-                    <h3>Ecovoito</h3>
-                    <p>
-                        Ecovoito à vu le jour en 2022 à la suite d’un projet en cours de développement . Nous avons
-                        travaillé en équipe pour imaginer sur challenge pour réduire le nombre de trajet maison-travail.
-                        Nous avons principalement appris à créer des itinéraire et à calculer une distance parcouru.
-                    </p>
-                </>
-                <>
-                    <h3>Yuka</h3>
-                    <p>
-                        En 2021, en équipe de trois, nous avons imaginé une stratégie digitale pour la version premium
-                        de Yuka. Notre travail nous a permis de mettre en pratique nos compétences en matière de design
-                        graphique, de marketing digital et de motion design.
-                    </p>
-                </>
+                <div className='flex flex-col gap-8 lg:flex-row'>
+                    <div className='flex flex-col flex-1 gap-4'>
+                        <h2 className='w-fit'>3 compétences, 3 projets</h2>
+
+                        <ol className='relative ml-12 border-l border-gray-200'>
+                            <li className='mb-2 ml-4'>
+                                <div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'></div>
+                                <h3>Challenge “Daily UI”</h3>
+                                <p>
+                                    En 2022, j’ai participé au challenge "Daily UI", ce qui m'a permis d'acquérir les
+                                    bases en design. A la fin de ce défi, j'ai continué à créer mes propres concepts
+                                    d'interfaces, en réfléchissant à la fois à l'UI et à l'UX. Aujourd'hui, mes
+                                    compétences en webdesign continuent de s'améliorer grâce à la pratique.
+                                </p>
+                            </li>
+                            <li className='mb-2 ml-4'>
+                                <div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'></div>
+                                <h3>Ecovoito</h3>
+                                <p>Ecovoito à vu le jour en 2022 à la suite d’un projet en cours de développement .</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div className='flex flex-col flex-1 gap-4'>
+                        <ol className='relative mr-12 border-l border-gray-200'>
+                            <li className='mb-2 ml-4'>
+                                <p>
+                                    Nous avons travaillé en équipe pour imaginer sur challenge pour réduire le nombre de
+                                    trajet maison-travail. Nous avons principalement appris à créer des itinéraire et à
+                                    calculer une distance parcouru.
+                                </p>
+                            </li>
+                            <li className='mb-2 ml-4'>
+                                <div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'></div>
+                                <h3>Yuka</h3>
+                                <p>
+                                    En 2021, en équipe de trois, nous avons imaginé une stratégie digitale pour la
+                                    version premium de Yuka. Notre travail nous a permis de mettre en pratique nos
+                                    compétences en matière de design graphique, de marketing digital et de motion
+                                    design.
+                                </p>
+                            </li>
+                        </ol>
+                        <button className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'>
+                            En savoir plus sur mes compétences
+                        </button>
+                    </div>
+                </div>
             </CardTemplate>
         </div>
     );
