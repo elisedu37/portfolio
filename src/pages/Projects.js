@@ -41,7 +41,7 @@ const Projects = () => {
 
                 <div className='flex flex-col flex-wrap w-full max-w-full gap-8'>
                     {visibledProjects.map((project, index) => (
-                        <ProjectCard key={index} project={project} index={index} />
+                        <ProjectCard key={project.id} project={project} index={index} />
                     ))}
 
                     {visibleProjects < displayedProjects.length && (
