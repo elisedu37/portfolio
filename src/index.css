@@ -24,7 +24,7 @@
     }
 
     h3 {
-        @apply m-0 text-3xl;
+        @apply m-0 text-xl font-dancing;
     }
 
     h4 {
