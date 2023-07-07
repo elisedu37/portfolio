@@ -7,11 +7,14 @@ module.exports = {
                 dancing: ['Dancing Script', 'sans-serif'],
             },
             width: {
-              '128': '32rem',
+                128: '32rem',
             },
             height: {
-              '128': '32rem',
-            }
+                128: '32rem',
+            },
+            backgroundImage: {
+                hero: "url('./assets/header.jpg')",
+            },
         },
     },
     plugins: [],

@@ -5,6 +5,15 @@ import resume from '../assets/illustrations/Resume.png';
 const Home = () => {
     return (
         <div className='flex flex-col flex-wrap w-full gap-8 m-auto mt-8 max-w-screen-2xl'>
+            <div name='home' className='w-full h-[66vh] bg-hero'>
+                <div className='flex flex-col justify-center h-full gap-8 m-8'>
+                    <h1 className='w-fit'>Développeuse Front-end</h1>
+                    <p className='w-1/2 text-xl '>
+                        Depuis 2 ans, je conçois et développe des sites internet / logiciels. <br /> Je suis spécialisée
+                        dans le framework React JS.
+                    </p>
+                </div>
+            </div>
             <CardTemplate index={0} image={resume}>
                 <div className='card'>
                     <p className='font-bold'>PHOTO</p>
@@ -77,7 +86,7 @@ const Home = () => {
                             </li>
                         </ol>
                         <button className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'>
-                            En savoir plus sur mes compétences
+                            + de projets
                         </button>
                     </div>
                 </div>
@@ -87,3 +96,9 @@ const Home = () => {
 };
 
 export default Home;
+
+/*
+
+   
+
+            */
