@@ -14,7 +14,7 @@ const Categories = ({ activeCategory, setActiveCategory, categories }) => {
                     key={cat}
                     onClick={() => setActiveCategory(cat)}
                     className={`flex flex-row items-start cursor-pointer p-2 rounded-full px-6 ${
-                        activeCategory === cat ? 'bg-[#fee0b3]' : 'bg-gray-200'
+                        activeCategory === cat ? 'bg-[#fee0b3] hover:bg-orange-300' : 'bg-gray-200 hover:bg-gray-300'
                     }`}
                 >
                     {cat}

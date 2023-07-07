@@ -29,7 +29,10 @@ const ProjectCard = ({ project, index }) => {
                     <div className='flex gap-4'>
                         {project?.actions?.map((action) => {
                             return (
-                                <button className='px-4 py-2 bg-orange-200 rounded w-fit' key={action.id}>
+                                <button
+                                    className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'
+                                    key={action.id}
+                                >
                                     {action.text}
                                 </button>
                             );
@@ -42,5 +45,3 @@ const ProjectCard = ({ project, index }) => {
 };
 
 export default ProjectCard;
-
-//w-full h-full min-h-64 lg:w-96 lg:min-h-96

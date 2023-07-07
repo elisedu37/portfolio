@@ -29,27 +29,27 @@ const NavBar = () => {
 
             <Transition
                 show={isOpen}
-                enter='transition-opacity duration-300'
+                enter='transition-opacity duration-0'
                 enterFrom='opacity-0'
                 enterTo='opacity-100'
-                leave='transition-opacity duration-300'
+                leave='transition-opacity duration-150'
                 leaveFrom='opacity-100'
                 leaveTo='opacity-0'
             >
                 <div className='fixed inset-0 z-20 flex items-center justify-center bg-[#fee0b3]'>
                     <ul onClick={toggleMenu} className='flex flex-col gap-24'>
                         <li>
-                            <Link to='/about' className='block text-5xl font-dancing'>
+                            <Link to='/about' className='block text-5xl font-dancing '>
                                 A propos
                             </Link>
                         </li>
                         <li>
-                            <Link to='/projects' className='block text-5xl font-dancing'>
+                            <Link to='/projects' className='block text-5xl font-dancing '>
                                 Portfolio
                             </Link>
                         </li>
                         <li>
-                            <a href={Pdf} className='block text-5xl font-dancing' target='_blank' rel='noreferrer'>
+                            <a href={Pdf} className='block text-5xl font-dancing ' target='_blank' rel='noreferrer'>
                                 Mon CV
                             </a>
                         </li>

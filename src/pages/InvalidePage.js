@@ -1,6 +1,6 @@
 const InvalidePage = () => {
     return (
-        <section className='flex h-[calc(100vh-200px)] items-center justify-center p-5 w-full'>
+        <section className='flex h-[calc(100vh-200px)] items-center justify-center p-5 w-full max-w-screen-2xl m-auto'>
             <div className='text-center'>
                 <div className='inline-flex p-4 bg-yellow-100 rounded-full'>
                     <div className='p-4 bg-yellow-200 rounded-full stroke-yellow-600'>
