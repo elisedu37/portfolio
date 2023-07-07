@@ -1,18 +1,22 @@
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
+import code from '../assets/illustrations/Code.png';
 
 const About = () => {
     const tabs = [
         {
             id: 'skills',
+            image: code,
             title: 'Mes compétences',
         },
         {
             id: 'experiences',
+            image: code,
             title: 'Mes expériences',
         },
         {
             id: 'parcours',
+            image: code,
             title: 'Mon parcours',
         },
     ];
@@ -23,10 +27,15 @@ const About = () => {
                 <Breadcrumb />
             </div>
 
-            <section className='flex w-full gap-8 m-auto h-96 max-w-screen-2xl'>
+            <section className='flex w-full gap-8 m-auto h-128 max-w-screen-2xl'>
                 {tabs.map((tab) => (
-                    <Link to={tab.id} className='flex w-1/3 h-full bg-white font-dancing' key={tab.id}>
-                        <p>{tab.title}</p>
+                    <Link
+                        to={tab.id}
+                        className='relative flex flex-col items-center justify-center w-1/3 h-full bg-white'
+                        key={tab.id}
+                    >
+                        <img src={tab.image} alt={tab.title} className='object-contain h-full' />
+                        <p className='absolute p-2 bg-white rounded-full'>{tab.title}</p>
                     </Link>
                 ))}
             </section>
