@@ -9,6 +9,9 @@ import InvalidePage from './pages/InvalidePage';
 // Composants
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Skills from './pages/About/Skills';
+import Experiences from './pages/About/Experiences';
+import Parcours from './pages/About/Parcours';
 
 function App() {
     const projectName = 'portfolio';
@@ -19,6 +22,11 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
+                <Route path='/about'>
+                    <Route path='skills' element={<Skills />} />
+                    <Route path='parcours' element={<Parcours />} />
+                    <Route path='experiences' element={<Experiences />} />
+                </Route>
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/legacy' element={<Legacy />} />
                 <Route path='*' element={<InvalidePage />} />
