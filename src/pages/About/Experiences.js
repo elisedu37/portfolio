@@ -1,5 +1,11 @@
+import TabsRender from '../../components/TabsRender';
+
 const Experiences = () => {
-    return <>Experiences</>;
+    return (
+        <>
+            <TabsRender />
+        </>
+    );
 };
 
 export default Experiences;
