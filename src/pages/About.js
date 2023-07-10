@@ -1,8 +1,16 @@
+// Navigation
 import { Link } from 'react-router-dom';
+// Composant
 import Breadcrumb from '../components/Breadcrumb';
+// Image
 import code from '../assets/illustrations/Code.png';
 
+/**
+ * Page à propos
+ * @returns {JSX}
+ */
 const About = () => {
+    // les onglets que nous pouvons ouvrir
     const tabs = [
         {
             id: 'skills',
@@ -20,6 +28,7 @@ const About = () => {
             title: 'Mon parcours',
         },
     ];
+
     return (
         <div className='flex flex-col gap-4 pt-4'>
             <div className='flex flex-col items-center w-full gap-4'>

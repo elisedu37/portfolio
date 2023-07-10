@@ -1,8 +1,15 @@
+// Composants
 import Breadcrumb from '../../components/Breadcrumb';
 import CardTemplate from '../../components/CardTemplate';
+// Image
 import code from '../../assets/illustrations/Code.png';
 
+/**
+ * Page qui présente mes compétences
+ * @returns {JSX}
+ */
 const Skills = () => {
+    // contenu à afficher
     const skills = [
         {
             id: 'dev',

@@ -15,6 +15,7 @@ import Parcours from './pages/About/Parcours';
 import ProjetDetail from './pages/ProjectDetails';
 
 function App() {
+    // base de l'url
     const projectName = 'portfolio';
 
     return (

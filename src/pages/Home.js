@@ -1,7 +1,13 @@
+// Composant
 import CardTemplate from '../components/CardTemplate';
+// Images
 import designer from '../assets/illustrations/Designer.png';
 import resume from '../assets/illustrations/Resume.png';
 
+/**
+ * Page d'accueil
+ * @returns {JSX}
+ */
 const Home = () => {
     return (
         <div className='flex flex-col flex-wrap w-full gap-8 m-auto mt-8 max-w-screen-2xl'>

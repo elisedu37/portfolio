@@ -1,8 +1,15 @@
+// Composants
 import Breadcrumb from '../../components/Breadcrumb';
 import CardTemplate from '../../components/CardTemplate';
+// Image
 import code from '../../assets/illustrations/Code.png';
 
+/**
+ * Page qui présente mon parcours
+ * @returns {JSX}
+ */
 const Parcours = () => {
+    // contenu à afficher
     const Parcours = [
         {
             id: 'dev',

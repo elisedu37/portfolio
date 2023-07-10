@@ -1,3 +1,7 @@
+/**
+ * Page pour les mentions légales
+ * @returns {JSX}
+ */
 const Legacy = () => {
     return (
         <section id='legacy'>

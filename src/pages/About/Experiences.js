@@ -1,7 +1,13 @@
+// Composants
 import { Tabs } from '../../components/Tabs';
 import Breadcrumb from '../../components/Breadcrumb';
 
+/**
+ * Page qui présente mes expériences pro
+ * @returns {JSX}
+ */
 const Experiences = () => {
+    // contenu à afficher
     const tabs = [
         {
             title: 'CDI - Logipro',

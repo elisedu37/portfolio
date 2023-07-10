@@ -2,6 +2,7 @@
 import zino from '../assets/portfolio/miniatures/miniaZino.png';
 import carte from '../assets/portfolio/miniatures/miniaCarte.png';
 
+// liste des projets
 export const projects = [
     {
         id: 'carte',
