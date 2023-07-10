@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 
 /**
  * Fil d'ariane
+ * @param {string} activePage page sur lequel l'utilisateur navigue
+ * @param {array} path chemin que l'utilisateur
  * @returns {JSX}
  */
-const Breadcrumb = () => {
+const Breadcrumb = ({ activePage, path }) => {
     return (
         <nav className='flex' aria-label='Breadcrumb'>
             <ol className='inline-flex items-center space-x-1'>
@@ -14,9 +16,18 @@ const Breadcrumb = () => {
                         Home /
                     </Link>
                 </li>
+                {path?.map((item, index) => (
+                    <li key={index}>
+                        <div className='flex items-center'>
+                            <Link to={item.path} className='inline-flex items-center text-sm font-medium text-gray-700'>
+                                {item.label} /
+                            </Link>
+                        </div>
+                    </li>
+                ))}
                 <li aria-current='page'>
                     <div className='flex items-center'>
-                        <span className='text-sm font-medium text-gray-500'>Portfolio</span>
+                        <span className='text-sm font-medium text-gray-500'>{activePage}</span>
                     </div>
                 </li>
             </ol>

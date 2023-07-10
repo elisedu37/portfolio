@@ -35,7 +35,7 @@ const ProjetDetail = () => {
                 <div className='flex flex-col gap-4 pt-4'>
                     <div className='flex flex-col items-center w-full gap-4'>
                         <h1>Projet : {project.title}</h1>
-                        <Breadcrumb />
+                        <Breadcrumb activePage={project.title} path={[{ label: 'Portfolio', path: '/projects' }]} />
                     </div>
 
                     <div className='flex flex-col gap-8 m-auto max-w-screen-2xl'>

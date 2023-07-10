@@ -12,8 +12,8 @@ const Parcours = () => {
     return (
         <div className='flex flex-col gap-4 pt-4'>
             <div className='flex flex-col items-center w-full gap-4'>
-                <h1>Mes compétences</h1>
-                <Breadcrumb />
+                <h1>Mon parcours</h1>
+                <Breadcrumb activePage='Mon parcours' path={[{ label: 'A propos', path: '/about' }]} />
             </div>
             <section id='projects' className='flex flex-col gap-8 m-auto max-w-screen-2xl'>
                 {parcours?.map((skill, index) => {

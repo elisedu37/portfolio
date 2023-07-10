@@ -13,7 +13,7 @@ const Skills = () => {
         <div className='flex flex-col gap-4 pt-4'>
             <div className='flex flex-col items-center w-full gap-4'>
                 <h1>Mes compétences</h1>
-                <Breadcrumb />
+                <Breadcrumb activePage='Mes compétences' path={[{ label: 'A propos', path: '/about' }]} />
             </div>
             <section id='projects' className='flex flex-col gap-8 m-auto max-w-screen-2xl'>
                 {skills?.map((skill, index) => {

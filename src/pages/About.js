@@ -14,7 +14,7 @@ const About = () => {
         <div className='flex flex-col gap-4 pt-4'>
             <div className='flex flex-col items-center w-full gap-4'>
                 <h1>A propos</h1>
-                <Breadcrumb />
+                <Breadcrumb activePage='A propos' />
             </div>
 
             <section className='flex w-full gap-8 m-auto h-128 max-w-screen-2xl'>
