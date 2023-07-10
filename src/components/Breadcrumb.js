@@ -1,6 +1,10 @@
 // Navigation
 import { Link } from 'react-router-dom';
 
+/**
+ * Fil d'ariane
+ * @returns {JSX}
+ */
 const Breadcrumb = () => {
     return (
         <nav className='flex' aria-label='Breadcrumb'>

@@ -1,3 +1,10 @@
+/**
+ * Template de carte 2 colonnes : image et contenu
+ * @param {string} index identifiant unique
+ * @param {string} image url de l'image
+ * @param {object} children contenu de la carte
+ * @returns {JSX}
+ */
 const CardTemplate = ({ index, image, children }) => {
     return (
         <div

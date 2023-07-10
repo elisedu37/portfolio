@@ -3,6 +3,10 @@ import { GithubLogo, LinkedinLogo } from 'phosphor-react';
 // Navigation
 import { Link } from 'react-router-dom';
 
+/**
+ * Pied de page
+ * @returns {JSX}
+ */
 const Footer = () => {
     return (
         <footer className='pt-8 m-auto max-w-screen-2xl'>

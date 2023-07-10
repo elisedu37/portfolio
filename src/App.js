@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Skills from './pages/About/Skills';
 import Experiences from './pages/About/Experiences';
 import Parcours from './pages/About/Parcours';
+import ProjetDetail from './pages/ProjectDetails';
 
 function App() {
     const projectName = 'portfolio';
@@ -28,6 +29,7 @@ function App() {
                     <Route path='experiences' element={<Experiences />} />
                 </Route>
                 <Route path='/projects' element={<Projects />} />
+                <Route path='/project/:id' element={<ProjetDetail />} />
                 <Route path='/legacy' element={<Legacy />} />
                 <Route path='*' element={<InvalidePage />} />
             </Routes>

@@ -1,3 +1,11 @@
+import { Link } from 'react-router-dom';
+
+/**
+ * Template de carte personnalisé pour les projets
+ * @param {object} project toutes les infos sur le projet
+ * @param {number} index permet de savoir si l'image est a gauche ou a droite
+ * @returns {JSX}
+ */
 const ProjectCard = ({ project, index }) => {
     return (
         <div
@@ -27,6 +35,14 @@ const ProjectCard = ({ project, index }) => {
                         );
                     })}
                     <div className='flex gap-4'>
+                        {project.more && (
+                            <Link
+                                to={`/project/${project.id}`}
+                                className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'
+                            >
+                                En savoir plus
+                            </Link>
+                        )}
                         {project?.actions?.map((action) => {
                             return (
                                 <button

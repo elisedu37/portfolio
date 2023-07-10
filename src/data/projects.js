@@ -6,14 +6,16 @@ export const projects = [
     {
         id: 'carte',
         title: 'A la carte',
+        type: 'perso',
         category: 'UX / UI Design',
-        date: '15/12/2022',
+        date: '2022',
         description: [
             '"A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur commande au magasin. ',
             "Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits. L'objectif est de faire ses courses de manière durable, considérée et respectueuse de l'environnement. ",
         ],
         skills: ['Figma', 'Conception UI', 'Prototypage'],
         image: carte,
+        more: true,
         actions: [{ id: 'carte_maquette', text: 'Voir les maquettes', link: '' }],
     },
     {

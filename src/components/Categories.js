@@ -1,3 +1,10 @@
+/**
+ * Dans les projets, filtre par catégorie
+ * @param {string} activeCategory nom de la catégorie active
+ * @param {function} setActiveCategory permet de setter la catégorie active
+ * @param {array} categories tableau qui contient toutes les catégories
+ * @returns {JSX}
+ */
 const Categories = ({ activeCategory, setActiveCategory, categories }) => {
     return (
         <div className='flex flex-row flex-wrap items-start content-center justify-center w-full gap-4 p-4 bg-white'>

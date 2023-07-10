@@ -9,6 +9,10 @@ import { List, X } from 'phosphor-react';
 // Médias
 import Pdf from '../assets/cv-elisegigot.pdf';
 
+/**
+ * Barre de navigation + menu
+ * @returns {JSX}
+ */
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
