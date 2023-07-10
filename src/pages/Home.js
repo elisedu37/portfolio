@@ -1,8 +1,5 @@
 // Composant
 import CardTemplate from '../components/CardTemplate';
-// Images
-import designer from '../assets/illustrations/Designer.png';
-import resume from '../assets/illustrations/Resume.png';
 
 /**
  * Page d'accueil
@@ -20,7 +17,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <CardTemplate index={0} image={resume}>
+            <CardTemplate index={0} image='https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg'>
                 <div className='card'>
                     <p className='font-bold'>PHOTO</p>
                 </div>
@@ -48,7 +45,7 @@ const Home = () => {
                     </div>
                 </div>
             </CardTemplate>
-            <CardTemplate index={1} image={designer}>
+            <CardTemplate index={1} image='https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg'>
                 <div className='flex flex-col gap-8 lg:flex-row'>
                     <div className='flex flex-col flex-1 gap-4'>
                         <h2 className='w-fit'>3 compétences, 3 projets</h2>
