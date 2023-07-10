@@ -4,33 +4,66 @@ import code from '../assets/illustrations/Code.png';
 export const parcours = [
     {
         id: 'dev',
-        title: 'Développement web',
-        description: [
-            "Je suis passionnée par le développement web depuis le collège. J’ai commencé par coder de simples sites statiques en HTML / CSS, puis j'ai acquis des compétences en JavaScript, React JS, PHP, Wordpress... Mes compétences me permettent de créer des sites variés : vitrine, e-commerce…",
-            "Par exemple, en 2021 lors de mon alternance, j’ai conçu un site e-commerce pour une marque de lunettes. Le principe était de vendre des montures de manière ludique en utilisant le même principe que les réseaux sociaux (Instagram). J’ai utilisé React pour le front Wordpress pour le back. Grâce à des requêtes API, j’ai fait communiquer les deux parties. Mon développement a permis de visualiser les produits sous la forme d’une mosaïque d'images aléatoires. A ce jour, le site n’est pas accessible au grand public. ",
-        ],
-        techno: 'HTML - CSS - JS | API | PHP - Symfony | Wordpress - Woocommerce | React JS - native',
+        title: 'LP métiers du numérique spécialité "développement web"',
+        content: (
+            <>
+                <p>Université Clermont Auvergne - Le Puy en Velay (43)</p>
+                <p>BAC+3 | Mention : bien | Sept. 2021 - août 2022</p>
+                <p>
+                    Pendant un an, j'ai effectué une licence professionnelle, qui m'a permis d'acquérir des compétences
+                    en développement d'applications web et mobiles, en web-marketing, référencement et webdesign.
+                </p>
+                <p>
+                    J'ai réalisé cette année en alternance au sein d'une entreprise clermontoise. Ce qui m'a permis de
+                    m’insérer professionnellement et d'appliquer directement les connaissances acquises à l’école.
+                </p>
+            </>
+        ),
+
         image: code,
     },
     {
         id: 'design',
         title: 'UX / UI',
-        description: [
-            "Depuis plus de deux ans, je m’intéresse à l'UX/UI. J’ai pris conscience de l’importance de l’interface et du parcours utilisateur. L’utilisateur est au centre de mes préoccupations. J’essaie de créer des interfaces intuitives, esthétiques et faciles à utiliser.",
-            'Pour réaliser mes wireframes et mes maquettes, j’utilise principalement Figma mais il m’est déjà arrivé de travailler sur Adobe XD.',
-        ],
-        techno: 'Conception UX/UI, wireframing, maquettes, Figma, Adobe XD',
+
+        content: (
+            <>
+                <p>Université Clermont Auvergne - Vichy (03)</p>
+                <p>BAC+2 | Sept. 2019 - juillet 2021</p>
+                <p>
+                    Avant ma licence, j'ai obtenu un DUT qui m'a permis d'acquérir de nombreuses compétences dans
+                    différents domaines. Pendant deux ans, j'ai étudié la programmation, la communication digitale et le
+                    graphisme à travers des projets.
+                </p>
+                <p>A la fin de ce cursus, je savais :</p>
+                <ul>
+                    <li>Créer un site internet en utilisant des langages tels que HTML/CSS, JS, JQuery, PHP</li>
+                    <li>Concevoir des produits de communication comme des affiches, flyers…</li>
+                    <li>Réaliser des oeuvres audiovisuelles : tournage, montage et motion design</li>
+                </ul>
+                <p>Activités et associations : Club audiovisuel</p>
+            </>
+        ),
         image: code,
     },
     {
         id: 'other',
         title: 'Autre',
-        description: [
-            'J’aime aussi la création vidéo et le motion design. Lors de mon parcours, j’ai participé à la réalisation de trois courts métrages. J’ai également pu appliquer et développer mes compétences en animation lors de mon stage de fin d’année pour mon DUT Métiers du multimédia et de l’internet.',
-            'J’utilise des logiciels tels que Premiere Pro, DaVinci Resolve et After Effects. ',
-            "Dans la même continuité, je m'intéresse au domaine du marketing digital. Par exemple, j'ai participé à la conception d'une stratégie digitale pour la version premium de l'application Yuka en 2021 (dans un contexte fictif). Cela m'a permis d’appliquer mes compétences en design graphique, en communication et en motion design.",
-        ],
-        techno: 'Photoshop Illustrator InDesign | Premiere Pro DaVinci Resolve After Effects Tournage & montage',
+
+        content: (
+            <>
+                <p>2019 | Lycée Notre dame la riche - Tours (37)</p>
+                <p>
+                    Lors de mes années lycée, j'avais déjà un intérêt pour le domaine du web même si j’ignorais encore
+                    quelle orientation je prendrai exactement.
+                </p>
+                <p>
+                    A plusieurs reprises j’ai suivi des options dans le domaine du développement, ce qui m'a poussé en
+                    terminale à suivre un enseignement de spécialité en informatique et création numérique pour le bac.
+                </p>
+                <p>J’ai pu ainsi coder mon premier jeu, Angry Birds, en utilisant le langage Python.</p>
+            </>
+        ),
         image: code,
     },
 ];

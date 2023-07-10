@@ -17,14 +17,19 @@ const Footer = () => {
                 <div className='flex flex-wrap items-center'>
                     <a
                         href='https://www.linkedin.com/in/elise-gigot/'
-                        className='linkedin'
+                        className='inline-flex items-center transition-colors duration-300 linkedin hover:text-orange-300'
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <LinkedinLogo size={32} />
+                        <LinkedinLogo size={32} className='mr-2' />
                     </a>
-                    <a href='https://github.com/elisedu37' className='instagram' target='_blank' rel='noreferrer'>
-                        <GithubLogo size={32} />
+                    <a
+                        href='https://github.com/elisedu37'
+                        className='inline-flex items-center transition-colors duration-300 instagram hover:text-orange-300'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <GithubLogo size={32} className='mr-2' />
                     </a>
                 </div>
             </div>

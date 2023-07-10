@@ -21,9 +21,7 @@ export const Tabs = ({ tabs }) => {
                     <div className='tab-content tab-space'>
                         {tabs.map((tab, index) => (
                             <TabContent key={index} tabId={index + 1} openTab={openTab}>
-                                {tab.content.map((contenu, index) => (
-                                    <p key={index}>{contenu}</p>
-                                ))}
+                                {tab.content}
                             </TabContent>
                         ))}
                     </div>

@@ -21,9 +21,7 @@ const Skills = () => {
                         <CardTemplate index={index} key={skill.id} image={skill.image}>
                             <h2>{skill.title}</h2>
                             <div className='flex flex-col gap-4 px-12 py-4 '>
-                                {skill?.description?.map((desc, index) => {
-                                    return <p key={index}>{desc}</p>;
-                                })}
+                                {skill?.content}
                                 <p>{skill.techno}</p>
                             </div>
                         </CardTemplate>
