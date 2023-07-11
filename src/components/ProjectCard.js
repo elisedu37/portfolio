@@ -27,7 +27,7 @@ const ProjectCard = ({ project, index }) => {
                     <p className='mr-44'>
                         Date du projet : {project.date} | Classification : {project.category}
                     </p>
-                    {project?.content}
+                    <div className='mr-44'>{project?.content}</div>
                     <div className='flex gap-4'>
                         {project.more && (
                             <Link
