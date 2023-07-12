@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.37bdef52.css",
-    "main.js": "/portfolio/static/js/main.2c11a693.js",
+    "main.css": "/portfolio/static/css/main.ec5c4bc8.css",
+    "main.js": "/portfolio/static/js/main.f9d5813e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cv-elisegigot.pdf": "/portfolio/static/media/cv-elisegigot.b7da5f20858a30a2e5bb.pdf",
     "static/media/Code.png": "/portfolio/static/media/Code.76f7441ff0b2622273e4.png",
-    "static/media/Resume.png": "/portfolio/static/media/Resume.f2d7f7221d72d59fffe4.png",
-    "static/media/Designer.png": "/portfolio/static/media/Designer.b2f29bd2071a88ed4003.png",
+    "static/media/header.jpg": "/portfolio/static/media/header.900c31e8f89dd27e1dc3.jpg",
     "static/media/miniaCarte.png": "/portfolio/static/media/miniaCarte.bf29e340c9cb89c019b2.png",
     "static/media/miniaZino.png": "/portfolio/static/media/miniaZino.9474b6a374bd3ec03cd8.png",
+    "static/media/logipro.jpg": "/portfolio/static/media/logipro.4cf6044b23625f617ba8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.37bdef52.css.map": "/portfolio/static/css/main.37bdef52.css.map",
-    "main.2c11a693.js.map": "/portfolio/static/js/main.2c11a693.js.map",
+    "main.ec5c4bc8.css.map": "/portfolio/static/css/main.ec5c4bc8.css.map",
+    "main.f9d5813e.js.map": "/portfolio/static/js/main.f9d5813e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37bdef52.css",
-    "static/js/main.2c11a693.js"
+    "static/css/main.ec5c4bc8.css",
+    "static/js/main.f9d5813e.js"
   ]
 }
