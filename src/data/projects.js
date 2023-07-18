@@ -28,7 +28,7 @@ export const projects = [
         image: carte,
         more: true,
         actions: [{ id: 'carte_maquette', text: 'Voir les maquettes', link: '' }],
-        singleImg: true,
+        singleImg: false,
     },
     {
         id: 'zino',
