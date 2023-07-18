@@ -1,6 +1,7 @@
 // Datas
 import { DownloadSimple } from 'phosphor-react';
 import { listItems } from '../data/hero';
+import Typewriter from 'typewriter-effect';
 import template from '../assets/Template-1.png';
 
 /**
@@ -12,7 +13,22 @@ const Home = () => {
         <div className='flex flex-col flex-wrap w-full gap-8 m-auto mt-8 max-w-screen-2xl'>
             <div className='flex flex-col items-center py-4 md:flex-row'>
                 <div className='flex flex-col justify-center w-full h-full gap-8 md:w-2/5'>
-                    <h1 className='w-fit'>Développeuse Front-end</h1>
+                    <h1 className='flex gap-4 w-fit'>
+                        👉
+                        <Typewriter
+                            options={{ loop: true }}
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString('FrontEnd Developer')
+                                    .pauseFor(2000)
+                                    .deleteAll()
+                                    .typeString('UX / UI Designer')
+                                    .pauseFor(2000)
+                                    .deleteAll()
+                                    .start();
+                            }}
+                        />
+                    </h1>
                     <p className='text-xl'>
                         Depuis 2 ans, je conçois et développe des sites internet / logiciels. <br /> Je suis spécialisée
                         dans le framework React JS.
