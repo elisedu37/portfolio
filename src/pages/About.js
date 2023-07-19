@@ -17,29 +17,31 @@ const About = () => {
                 <Breadcrumb activePage='A propos' />
             </div>
 
-            <section className='flex w-full gap-8 m-auto h-128 max-w-screen-2xl'>
-                <div className='w-full'>
-                    <div className='y-16 sm:py-24'>
-                        <div className='space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0'>
-                            {tabs.map((callout) => (
-                                <Link to={callout.id} key={callout.id}>
-                                    <div className='relative group'>
-                                        <div className='relative w-full overflow-hidden bg-white rounded-sm h-80 sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64'>
+            <section className='flex flex-wrap w-full gap-8 m-auto my-8 max-w-screen-2xl'>
+                {tabs.map((callout) => (
+                    <div key={callout.id} className='flex-1 bg-white rounded shadow'>
+                        <Link to={callout.id}>
+                            <div className='p-4'>
+                                <div className='relative flex justify-center h-64 overflow-hidden rounded'>
+                                    <div className='w-full transition-transform duration-500 ease-in-out transform hover:scale-110'>
+                                        <div className='absolute inset-0'>
                                             <img
                                                 src={callout.image}
-                                                alt={callout.description}
+                                                alt={callout.name}
                                                 className='object-cover object-center w-full h-full'
                                             />
                                         </div>
-                                        <p className='mt-3 text-base font-semibold text-gray-900'>
-                                            {callout.description}
-                                        </p>
                                     </div>
-                                </Link>
-                            ))}
-                        </div>
+                                    <div className='absolute left-0 mt-3'>
+                                        <h2 className='w-fit '>{callout.name}</h2>
+                                    </div>
+                                </div>
+
+                                <div className='mt-8 '>{callout.description}</div>
+                            </div>
+                        </Link>
                     </div>
-                </div>
+                ))}
             </section>
         </div>
     );

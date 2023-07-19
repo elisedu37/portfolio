@@ -8,12 +8,13 @@ import Pdf from '../assets/cv-elisegigot.pdf';
 
 /**
  * Page d'accueil
+ * @param {boolean} isOpen le menu est ouvert ou fermé
  * @returns {JSX}
  */
 const Home = ({ isOpen }) => {
     return (
-        <div className='flex flex-col flex-wrap w-full gap-8 m-auto mt-8 max-w-screen-2xl'>
-            <div className='flex flex-col items-center py-4 md:flex-row'>
+        <div className='flex flex-row flex-wrap w-full gap-8 m-auto mt-8 md:flex-col max-w-screen-2xl'>
+            <div className='flex flex-col items-center md:flex-row'>
                 <div className='flex flex-col justify-center w-full h-full gap-8 md:w-2/5'>
                     {!isOpen && (
                         <h1 className={`flex gap-4 w-fit`}>
@@ -65,14 +66,3 @@ const Home = ({ isOpen }) => {
 };
 
 export default Home;
-
-/*
-<dl className='grid grid-cols-1 my-8 mt-16 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-y-16 lg:gap-x-8'>
-    {listItems.map((item, index) => (
-        <div key={index} className='pt-4 border-t border-gray-200'>
-            <dt className='font-medium text-gray-900'>{item.term}</dt>
-            <dd className='mt-2 text-sm text-gray-500'>{item.description}</dd>
-        </div>
-    ))}
-</dl>
-*/

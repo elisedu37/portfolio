@@ -43,21 +43,3 @@ export const images = [
         id: 'img7',
     },
 ];
-
-export const listItems = [
-    {
-        term: '2 ans',
-        description: "d'expériences en tant de développeuse",
-        id: '1',
-    },
-    {
-        term: '3 ans',
-        description: "d'études ",
-        id: '1',
-    },
-    {
-        term: '+ 10 projets',
-        description: 'à retrouver sur mon portfolio',
-        id: '1',
-    },
-];

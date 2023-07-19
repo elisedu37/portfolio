@@ -12,7 +12,11 @@ const Footer = () => {
         <footer className='pt-8 m-auto max-w-screen-2xl'>
             <div className='w-full mx-auto md:flex md:items-center md:justify-between'>
                 <span>
-                    © 2023 Elise GIGOT. | Tous droits réservés. |<Link to='/legacy'> Mentions légales</Link>
+                    © 2023 Elise GIGOT. Tous droits réservés. |
+                    <Link to='/legacy' className='hover:underline'>
+                        {' '}
+                        Mentions légales
+                    </Link>
                 </span>
                 <div className='flex flex-wrap items-center'>
                     <a
