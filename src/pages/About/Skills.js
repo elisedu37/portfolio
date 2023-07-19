@@ -15,7 +15,7 @@ const Skills = () => {
                 <h1>Mes compétences</h1>
                 <Breadcrumb activePage='Mes compétences' path={[{ label: 'A propos', path: '/about' }]} />
             </div>
-            <section id='projects' className='flex flex-col gap-8 m-auto max-w-screen-2xl'>
+            <section id='projects' className='flex flex-col gap-8 m-auto my-8 max-w-screen-2xl'>
                 {skills?.map((skill, index) => {
                     return (
                         <CardTemplate index={index} key={skill.id} image={skill.image}>

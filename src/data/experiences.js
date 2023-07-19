@@ -4,7 +4,7 @@ export const experiences = [
         content: (
             <>
                 <p className='font-semibold text-orange-400'>Logipro : Spt 2022 à aujourd’hui</p>
-                <h1 className='mt-2 text-3xl font-bold '>Développement front-end</h1>
+                <h1 className='mt-2 text-3xl font-bold '>Développeuse front-end</h1>
                 <div className='flex flex-col gap-4 mt-2 leading-7'>
                     <p>
                         Je travaille sur le développement de deux logiciels : Agora Learning et Crea Learning. Cette
@@ -34,7 +34,7 @@ export const experiences = [
                         notre code avec GitLab.
                     </p>
                     <p>Cette expérience me permet au quotidien d’approfondir mes compétences.</p>
-                    <ul role='list' className='gap-4'>
+                    <ul className='gap-4'>
                         <li>
                             <span className='font-semibold'>Formations obtenues. </span>
                             React avec Dyma et Wordpress avec le centre de formation Campus26
@@ -78,10 +78,10 @@ export const experiences = [
         title: 'Alternance - ImAAAgery',
         content: (
             <>
-                <p className='font-semibold text-orange-400'>Logipro : Spt 2022 à aujourd’hui</p>
-                <h1 className='mt-2 text-3xl font-bold '>Développement front-end</h1>
+                <p className='font-semibold text-orange-400'>Imaaagery : Juil 2021 - Aout 2022</p>
+                <h1 className='mt-2 text-3xl font-bold '>Développement web</h1>
                 <div className='flex flex-col gap-4 mt-2 leading-7'>
-                    <p>Juil 2021 - Aout 2022 - Développement web, webdesign et graphisme</p>
+                    <p>- Développement web, webdesign et graphisme</p>
                     <p>Imaaagery propose des solutions innovantes alliant la technologie et le secteur de la beauté.</p>
                     <p>
                         Lors de mon alternance, j'ai eu la chance de travailler sur plusieurs projets de A à Z allant de
@@ -133,10 +133,10 @@ export const experiences = [
         title: 'Stage - Kogito',
         content: (
             <>
-                <p className='font-semibold text-orange-400'>Logipro : Spt 2022 à aujourd’hui</p>
-                <h1 className='mt-2 text-3xl font-bold '>Développement front-end</h1>
+                <p className='font-semibold text-orange-400'>Kogito : Mars 2021 - juin 2021</p>
+                <h1 className='mt-2 text-3xl font-bold '>Motion designer</h1>
                 <div className='flex flex-col gap-4 mt-2 leading-7'>
-                    <p>Mars 2021 - juin 2021 | Tours (37) - Motion design et création graphique</p>
+                    <p> | Tours (37) - Motion design et création graphique</p>
                     <p>
                         Au cours de mon stage chez Kogito, j'ai eu la chance de travailler sur des projets dans le
                         domaine du motion design et de la création graphique.

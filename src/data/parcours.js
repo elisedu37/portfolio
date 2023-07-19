@@ -1,9 +1,6 @@
-// Image
-import code from '../assets/illustrations/Code.png';
-
 export const parcours = [
     {
-        id: 'dev',
+        id: 'lp',
         title: 'LP métiers du numérique spécialité "développement web"',
         content: (
             <>
@@ -20,11 +17,32 @@ export const parcours = [
             </>
         ),
 
-        image: code,
+        images: [
+            {
+                key: 1,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 2,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 3,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 4,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+        ],
     },
     {
-        id: 'design',
-        title: 'UX / UI',
+        id: 'dut',
+        title: "DUT Métiers du multimédia et de l'internet",
 
         content: (
             <>
@@ -44,11 +62,32 @@ export const parcours = [
                 <p>Activités et associations : Club audiovisuel</p>
             </>
         ),
-        image: code,
+        images: [
+            {
+                key: 1,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 2,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 3,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 4,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+        ],
     },
     {
-        id: 'other',
-        title: 'Autre',
+        id: 'bac',
+        title: 'Baccalauréat Scientifique option ISN',
 
         content: (
             <>
@@ -64,6 +103,27 @@ export const parcours = [
                 <p>J’ai pu ainsi coder mon premier jeu, Angry Birds, en utilisant le langage Python.</p>
             </>
         ),
-        image: code,
+        images: [
+            {
+                key: 1,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 2,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 3,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+            {
+                key: 4,
+                url: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg',
+                alt: 'Walnut card tray with white powder coated steel divider and 3 punchout holes.',
+            },
+        ],
     },
 ];

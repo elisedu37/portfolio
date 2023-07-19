@@ -15,7 +15,7 @@ const Experiences = () => {
                 <h1>Mes expériences</h1>
                 <Breadcrumb activePage='Mes expériences' path={[{ label: 'A propos', path: '/about' }]} />
             </div>
-            <section className='flex w-full gap-8 m-auto max-w-screen-2xl'>
+            <section className='flex w-full gap-8 m-auto my-8 max-w-screen-2xl'>
                 <Tabs tabs={experiences} />
             </section>
         </div>

@@ -42,33 +42,7 @@ const ProjetDetail = () => {
                                         </div>
 
                                         <div className='max-w-xl text-base leading-7 text-gray-700 lg:max-w-2xl'>
-                                            <p>
-                                                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                                                Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent
-                                                donec est. Odio penatibus risus viverra tellus varius sit neque erat
-                                                velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                                                risus enim. Mattis mauris semper sed amet vitae sed turpis id. risus
-                                                enim. Mattis mauris semper sed amet vitae sed turpis id. risus enim.
-                                                Mattis mauris semper sed amet vitae sed turpis id. risus enim. Mattis
-                                                mauris semper sed amet vitae sed turpis id. risus enim. Mattis mauris
-                                                semper sed amet vitae sed turpis id. risus enim. Mattis mauris semper
-                                                sed amet vitae sed turpis id. risus enim. Mattis mauris semper sed amet
-                                                vitae sed turpis id. risus enim. Mattis mauris semper sed amet vitae sed
-                                                turpis id. risus enim. Mattis mauris semper sed amet vitae sed turpis
-                                                id. risus enim. Mattis mauris semper sed amet vitae sed turpis id. risus
-                                                enim. Mattis mauris semper sed amet vitae sed turpis id. risus enim.
-                                                Mattis mauris semper sed amet vitae sed turpis id. risus enim. Mattis
-                                                mauris semper sed amet vitae sed turpis id. risus enim. Mattis mauris
-                                                semper sed amet vitae sed turpis id. risus enim. Mattis mauris semper
-                                                sed amet vitae sed turpis id. risus enim. Mattis mauris semper sed amet
-                                                vitae sed turpis id. risus enim. Mattis mauris semper sed amet vitae sed
-                                                turpis id. risus enim. Mattis mauris semper sed amet vitae sed turpis
-                                                id. risus enim. Mattis mauris semper sed amet vitae sed turpis id. risus
-                                                enim. Mattis mauris semper sed amet vitae sed turpis id. risus enim.
-                                                Mattis mauris semper sed amet vitae sed turpis id. risus enim. Mattis
-                                                mauris semper sed amet vitae sed turpis id.
-                                            </p>
-                                            <ul role='list' className='mt-8 space-y-8 text-gray-600'>
+                                            <ul className='mt-8 space-y-8 text-gray-600'>
                                                 <li className='flex gap-x-3'>
                                                     <Cloud
                                                         className='flex-none w-5 h-5 mt-1 text-indigo-600'

@@ -1,6 +1,6 @@
 // Composants
 import Breadcrumb from '../../components/Breadcrumb';
-import CardTemplate from '../../components/CardTemplate';
+import { Tabs } from '../../components/Tabs';
 // Datas
 import { parcours } from '../../data/parcours';
 
@@ -15,18 +15,8 @@ const Parcours = () => {
                 <h1>Mon parcours</h1>
                 <Breadcrumb activePage='Mon parcours' path={[{ label: 'A propos', path: '/about' }]} />
             </div>
-            <section id='projects' className='flex flex-col gap-8 m-auto max-w-screen-2xl'>
-                {parcours?.map((skill, index) => {
-                    return (
-                        <CardTemplate index={index} key={skill.id} image={skill.image}>
-                            <h2>{skill.title}</h2>
-                            <div className='flex flex-col gap-4 px-12 py-4 '>
-                                {skill?.content}
-                                <p>{skill.techno}</p>
-                            </div>
-                        </CardTemplate>
-                    );
-                })}
+            <section className='flex w-full gap-8 m-auto my-8 max-w-screen-2xl'>
+                <Tabs tabs={parcours} />
             </section>
         </div>
     );
