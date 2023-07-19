@@ -1,25 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.43de8cfb.css",
-    "main.js": "/portfolio/static/js/main.1cc890a4.js",
+    "main.css": "/portfolio/static/css/main.b31842f0.css",
+    "main.js": "/portfolio/static/js/main.63c1103d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cv-elisegigot.pdf": "/portfolio/static/media/cv-elisegigot.b7da5f20858a30a2e5bb.pdf",
     "static/media/Template-1.png": "/portfolio/static/media/Template-1.f7bc7253f4cb17c386fc.png",
-    "static/media/Code.png": "/portfolio/static/media/Code.76f7441ff0b2622273e4.png",
-    "static/media/miniaPToujours.png": "/portfolio/static/media/miniaPToujours.2ac8485b4dbcd1ec27a1.png",
-    "static/media/Random.png": "/portfolio/static/media/Random.9f9addc5131dc0bcbeaf.png",
     "static/media/miniaCarte.png": "/portfolio/static/media/miniaCarte.bf29e340c9cb89c019b2.png",
-    "static/media/miniaDailyUI.png": "/portfolio/static/media/miniaDailyUI.5fd1911b135e0f65eddc.png",
     "static/media/miniaZino.png": "/portfolio/static/media/miniaZino.9474b6a374bd3ec03cd8.png",
-    "static/media/NewEcovoito.png": "/portfolio/static/media/NewEcovoito.048de52fe7487a95c029.png",
     "static/media/logipro.jpg": "/portfolio/static/media/logipro.4cf6044b23625f617ba8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.43de8cfb.css.map": "/portfolio/static/css/main.43de8cfb.css.map",
-    "main.1cc890a4.js.map": "/portfolio/static/js/main.1cc890a4.js.map",
+    "main.b31842f0.css.map": "/portfolio/static/css/main.b31842f0.css.map",
+    "main.63c1103d.js.map": "/portfolio/static/js/main.63c1103d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43de8cfb.css",
-    "static/js/main.1cc890a4.js"
+    "static/css/main.b31842f0.css",
+    "static/js/main.63c1103d.js"
   ]
 }
