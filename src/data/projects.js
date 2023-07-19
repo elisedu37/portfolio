@@ -22,6 +22,26 @@ export const projects = [
                     L'objectif est de faire ses courses de manière durable, considérée et respectueuse de
                     l'environnement.
                 </p>
+                <p>
+                    "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept
+                    est le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur
+                    commande au magasin.
+                </p>
+                <p>
+                    Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
+                    L'objectif est de faire ses courses de manière durable, considérée et respectueuse de
+                    l'environnement.
+                </p>
+                <p>
+                    "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept
+                    est le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur
+                    commande au magasin.
+                </p>
+                <p>
+                    Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
+                    L'objectif est de faire ses courses de manière durable, considérée et respectueuse de
+                    l'environnement.
+                </p>
             </div>
         ),
         skills: ['Figma', 'Conception UI', 'Prototypage'],

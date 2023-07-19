@@ -11,10 +11,13 @@ const ProjectCard = ({ project, index }) => {
         <div
             className={`flex flex-col lg:flex-row gap-8 items-stretch ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}
         >
-            <div className='w-full m-auto rounded h-96 lg:h-full lg:w-96'>
-                <img src={project.image} alt='portfolio' className='object-cover w-full' />
+            <div className='w-full m-auto overflow-hidden rounded h-96 lg:h-max lg:w-96'>
+                <div className='transition-transform duration-500 ease-in-out transform h-max hover:scale-110'>
+                    <img src={project.image} alt='' className='object-cover h-max ' />
+                </div>
             </div>
-            <div className='relative flex flex-col items-start flex-1 inline-block w-full gap-4 p-0 pt-6 bg-white rounded'>
+
+            <div className='relative flex flex-col items-start flex-1 w-full gap-4 p-0 pt-6 bg-white rounded'>
                 <div className='card'>
                     <p className='font-bold'>Compétences</p>
                     {project?.skills?.map((skill, index) => {

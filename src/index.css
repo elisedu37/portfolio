@@ -12,6 +12,8 @@
         padding: 2%;
         background-color: #f8f8f8;
     }
+    img {
+    }
 }
 
 @layer base {

@@ -7,7 +7,7 @@ export const tabs = [
         image: 'https://images.pexels.com/photos/4348403/pexels-photo-4348403.jpeg?auto=compress&cs=tinysrgb',
         name: 'Mes compétences',
         description:
-            "Je suis un développeur web passionné et expérimenté, capable de créer des sites variés, y compris des sites e-commerce. De plus, j'ai des compétences en conception d'interfaces intuitives et esthétiques.",
+            "Je suis développeuse web depuis 2 ans. Je suis capable de créer des sites variés et y compris d'imaginer leurs d'interfaces.",
     },
     {
         id: 'experiences',
@@ -21,6 +21,6 @@ export const tabs = [
         image: 'https://www.lasa.fr/wp-content/uploads/2016/12/2016-IUT-UNIVERSITAIRE-PUY-EN-VELAY-L-1-1000x667.jpg',
         name: 'Mon parcours',
         description:
-            "J'ai suivi un parcours axé sur le développement web, la communication digitale et graphisme. Grâce à mon année d'alternance, j'ai pu mettre en pratique mes compétences et acquérir une expérience concrète dans le domaine.",
+            "J'ai suivi un parcours axé sur le développement web, la communication digitale et graphisme.",
     },
 ];
