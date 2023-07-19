@@ -1,5 +1,3 @@
-// Hooks
-import { useState } from 'react';
 // Transition
 import { Transition } from '@headlessui/react';
 // Navigation
@@ -13,9 +11,7 @@ import Pdf from '../assets/cv-elisegigot.pdf';
  * Barre de navigation + menu
  * @returns {JSX}
  */
-const NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
+const NavBar = ({ isOpen, setIsOpen }) => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };

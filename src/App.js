@@ -13,16 +13,20 @@ import Skills from './pages/About/Skills';
 import Experiences from './pages/About/Experiences';
 import Parcours from './pages/About/Parcours';
 import ProjetDetail from './pages/ProjectDetails';
+import { useState } from 'react';
 
 function App() {
     // base de l'url
     const projectName = 'portfolio';
 
+    const [isOpen, setIsOpen] = useState(false);
+
+
     return (
         <Router basename={`/${projectName}`}>
-            <NavBar />
+            <NavBar isOpen={isOpen} setIsOpen={setIsOpen}/>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Home isOpen={isOpen}/>} />
                 <Route path='/about' element={<About />} />
                 <Route path='/about'>
                     <Route path='skills' element={<Skills />} />
