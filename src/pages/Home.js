@@ -5,6 +5,7 @@ import { DownloadSimple } from 'phosphor-react';
 // Images et PDF
 import home from '../assets/home.png';
 import Pdf from '../assets/cv-elisegigot.pdf';
+import { Link } from 'react-router-dom';
 
 /**
  * Page d'accueil
@@ -36,8 +37,8 @@ const Home = ({ isOpen }) => {
                     )}
                     <div className='flex flex-col gap-2'>
                         <p className='sm:text-xl'>
-                            Conceptrice et développeuse de logiciels et de sites internet depuis 2 ans, je suis
-                            spécialisé dans le framework React JS.
+                            Conceptrice et développeuse de sites internet depuis 2 ans, je suis spécialisé dans le
+                            framework React JS.
                         </p>
                         <p className='sm:text-xl'>
                             Vous pouvez découvrir mes créations et consulter mon CV pour en savoir plus sur mon
@@ -45,9 +46,12 @@ const Home = ({ isOpen }) => {
                         </p>
                     </div>
                     <div className='flex gap-4'>
-                        <button className='px-4 py-2 text-sm bg-orange-200 rounded w-fit hover:bg-orange-300 sm:text-base'>
+                        <Link
+                            to='/projects'
+                            className='px-4 py-2 text-sm bg-orange-200 rounded w-fit hover:bg-orange-300 sm:text-base'
+                        >
                             Mon portfolio
-                        </button>
+                        </Link>
 
                         <a href={Pdf} className='flex items-center text-sm sm:text-base'>
                             <span className='mr-2'>

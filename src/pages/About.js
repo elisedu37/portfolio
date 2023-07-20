@@ -33,7 +33,7 @@ const About = () => {
                                         </div>
                                     </div>
                                     <div className='absolute left-0 mt-3'>
-                                        <h2 className='w-fit '>{callout.name}</h2>
+                                        <h2>{callout.name}</h2>
                                     </div>
                                 </div>
 

@@ -9,10 +9,6 @@ const workNewEcovoito = {
     content: (
         <div className='flex flex-col gap-4'>
             <p className='m-0 sm:mr-44'>
-                repenser l'interface utilisateur (UI) et l'expérience utilisateur (UX) de notre application. site
-                internet et application
-            </p>
-            <p className='m-0 sm:mr-44'>
                 En repensant l'UI/UX d'Ecovoito, nous visons à offrir une expérience utilisateur améliorée, intuitive et
                 esthétiquement plaisante. Nous souhaitons encourager davantage de personnes à adopter des trajets
                 écologiques et contribuer ainsi à la réduction des émissions de CO2.
@@ -34,7 +30,41 @@ const workNewEcovoito = {
         <>
             <p className='font-semibold text-orange-400'>2023</p>
             <h1 className='mt-2 text-3xl font-bold '>UX / UI Design</h1>
-            <div className='flex flex-col gap-4 mt-2 leading-7'></div>
+            <div className='flex flex-col gap-4 mt-2 leading-7'>
+                <p>
+                    Nous avons entrepris de repenser l'interface utilisateur (UI) et l'expérience utilisateur (UX) de
+                    l'application Ecovoito, ainsi que de son site internet. Notre objectif principal est d'améliorer la
+                    convivialité, l'attrait visuel et la facilité d'utilisation de la plateforme.
+                </p>
+                <p>Objectifs clés de la refonte :</p>
+                <p>
+                    Simplification de la navigation : Nous allons revoir l'architecture de l'application et du site pour
+                    faciliter la navigation des utilisateurs. Cela inclut la création de menus clairs, d'une hiérarchie
+                    de contenu cohérente et de boutons d'action intuitifs.
+                </p>
+                <p>
+                    Design attractif et cohérent : Nous allons adopter un design moderne et attrayant, en utilisant des
+                    couleurs, des typographies et des visuels qui reflètent l'esprit écologique et durable d'Ecovoito.
+                    L'objectif est de créer une identité visuelle cohérente et mémorable.
+                </p>
+                <p>
+                    Optimisation des processus d'échange : Nous allons simplifier le processus d'échange de trajets
+                    domicile-travail en rendant les étapes claires et intuitives. Cela inclut la création de formulaires
+                    de réservation conviviaux, la visualisation des trajets disponibles sur une carte interactive et
+                    l'envoi de notifications aux utilisateurs pour les informer des mises à jour.
+                </p>
+                <p>
+                    Amélioration de la communication entre utilisateurs : Nous allons intégrer une messagerie
+                    instantanée qui permettra aux utilisateurs de communiquer facilement et en temps réel pour organiser
+                    les détails de leurs trajets. Cela facilitera la coordination et renforcera la confiance entre les
+                    utilisateurs.
+                </p>
+                <p>
+                    Optimisation de la version mobile : Nous allons nous assurer que l'application et le site internet
+                    sont entièrement responsives, offrant une expérience utilisateur optimale sur les appareils mobiles.
+                    Cela permettra aux utilisateurs d'accéder à Ecovoito de n'importe où et à tout moment.
+                </p>
+            </div>
         </>
     ),
     singleImg: false,

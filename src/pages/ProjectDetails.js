@@ -5,6 +5,8 @@ import { projects } from '../data/projects';
 import { useParams } from 'react-router';
 // Composant
 import Breadcrumb from '../components/Breadcrumb';
+// Icones
+import { FigmaLogo, Planet } from 'phosphor-react';
 
 /**
  * Page single project
@@ -26,11 +28,29 @@ const ProjetDetail = () => {
                     </div>
 
                     <div className='flex flex-col gap-8 m-auto xl:flex-row max-w-screen-2xl lg:items-start'>
-                        <div className='flex-1 lg:max-w-2xl'>{project.singleProjectContent}</div>
+                        <div className='flex flex-col flex-1 gap-4 lg:max-w-2xl'>
+                            {project.singleProjectContent}{' '}
+                            {project?.actions?.map((action) => {
+                                return (
+                                    <a
+                                        href={action.link}
+                                        className='flex items-center'
+                                        key={action.id}
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
+                                        <span className='mr-2'>
+                                            {action.icon === 'FigmaLogo' ? <FigmaLogo /> : <Planet />}
+                                        </span>
+                                        {action.text}
+                                    </a>
+                                );
+                            })}
+                        </div>
                         <div className='flex-1 lg:sticky lg:top-4 lg:overflow-hidden'>
                             {project.singleImg ? (
                                 <img
-                                    className='w-3/4 max-w-none  bg-gray-900 shadow-sm ring-1 ring-gray-400/10 sm:w-[57rem]'
+                                    className='w-full max-w-none bg-gray-900 shadow-sm ring-1 ring-gray-400/10 sm:w-[57rem]'
                                     src={project.image}
                                     alt=''
                                 />
