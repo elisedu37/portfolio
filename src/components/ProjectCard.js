@@ -1,4 +1,4 @@
-import { Planet } from 'phosphor-react';
+import { FigmaLogo, Planet } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
 /**
@@ -14,7 +14,9 @@ const ProjectCard = ({ project, index }) => {
         >
             <div className='w-full m-auto overflow-hidden rounded h-96 lg:h-max lg:w-96'>
                 <div className='transition-transform duration-500 ease-in-out transform h-max hover:scale-110'>
-                    <img src={project.image} alt='' className='object-cover w-full h-max' />
+                    <Link to={`/project/${project.id}`}>
+                        <img src={project.image} alt='' className='object-cover w-full h-max' />
+                    </Link>
                 </div>
             </div>
 
@@ -29,7 +31,7 @@ const ProjectCard = ({ project, index }) => {
                 <h2>{project.title}</h2>
                 <div className='flex flex-col gap-4 px-12 py-4 '>
                     <p className='mr-44'>
-                        Date du projet : {project.date} | Classification : {project.category}
+                        Date du projet : {project.date} | Classification : <strong>{project.category}</strong>
                     </p>
                     <div>{project?.content}</div>
                     <div className='flex gap-4'>
@@ -43,9 +45,15 @@ const ProjectCard = ({ project, index }) => {
                         )}
                         {project?.actions?.map((action) => {
                             return (
-                                <a href={action.link} className='flex items-center' key={action.id}>
+                                <a
+                                    href={action.link}
+                                    className='flex items-center'
+                                    key={action.id}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
                                     <span className='mr-2'>
-                                        <Planet />
+                                        {action.icon === 'FigmaLogo' ? <FigmaLogo /> : <Planet />}
                                     </span>
                                     {action.text}
                                 </a>
