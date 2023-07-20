@@ -19,14 +19,14 @@ function App() {
     // base de l'url
     const projectName = 'portfolio';
 
+    // gère l'ouverture et la fermeture du menu
     const [isOpen, setIsOpen] = useState(false);
-
 
     return (
         <Router basename={`/${projectName}`}>
-            <NavBar isOpen={isOpen} setIsOpen={setIsOpen}/>
+            <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
             <Routes>
-                <Route path='/' element={<Home isOpen={isOpen}/>} />
+                <Route path='/' element={<Home isOpen={isOpen} />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/about'>
                     <Route path='skills' element={<Skills />} />
