@@ -6,6 +6,7 @@ import Categories from '../components/Categories';
 import ProjectCard from '../components/ProjectCard';
 // Datas
 import { projects } from '../data/projects';
+import { Plus } from 'phosphor-react';
 
 /**
  * Page qui présente l'ensemble des projets
@@ -56,8 +57,14 @@ const Projects = () => {
                     ))}
 
                     {visibleProjects < displayedProjects.length && (
-                        <div className='load-more'>
-                            <button onClick={handleLoadMore}>Afficher plus</button>
+                        <div className='flex justify-center'>
+                            <button
+                                onClick={handleLoadMore}
+                                className='flex items-center gap-4 px-4 py-2 text-sm bg-gray-200 rounded hover:bg-gray-300 w-fit sm:text-base'
+                            >
+                                <Plus />
+                                Afficher plus de projets
+                            </button>
                         </div>
                     )}
                 </div>

@@ -2,7 +2,7 @@
  * Page 404
  * @returns {JSX}
  */
-const InvalidePage = () => {
+const InvalidPage = () => {
     return (
         <section className='flex h-[calc(100vh-200px)] items-center justify-center p-5 w-full max-w-screen-2xl m-auto'>
             <div className='text-center'>
@@ -25,4 +25,4 @@ const InvalidePage = () => {
     );
 };
 
-export default InvalidePage;
+export default InvalidPage;
