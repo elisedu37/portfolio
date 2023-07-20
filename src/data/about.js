@@ -1,5 +1,5 @@
 // Image
-import logipro from '../assets/illustrations/logipro.jpg';
+import logipro from '../assets/logipro.jpg';
 
 export const tabs = [
     {
