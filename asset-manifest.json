@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b31842f0.css",
-    "main.js": "/portfolio/static/js/main.63c1103d.js",
+    "main.css": "/portfolio/static/css/main.cc9f67cb.css",
+    "main.js": "/portfolio/static/js/main.8b0b3569.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cv-elisegigot.pdf": "/portfolio/static/media/cv-elisegigot.b7da5f20858a30a2e5bb.pdf",
     "static/media/Template-1.png": "/portfolio/static/media/Template-1.f7bc7253f4cb17c386fc.png",
+    "static/media/miniaPhotoshop.png": "/portfolio/static/media/miniaPhotoshop.de4e5be6fa7fa5ff48ed.png",
+    "static/media/miniaPToujours.png": "/portfolio/static/media/miniaPToujours.2ac8485b4dbcd1ec27a1.png",
+    "static/media/Random.png": "/portfolio/static/media/Random.9f9addc5131dc0bcbeaf.png",
+    "static/media/PlantShop.png": "/portfolio/static/media/PlantShop.815e94d0b4fe6799fa6e.png",
+    "static/media/miniaUrbanTrail.png": "/portfolio/static/media/miniaUrbanTrail.0bd341169e38d0ed8352.png",
     "static/media/miniaCarte.png": "/portfolio/static/media/miniaCarte.bf29e340c9cb89c019b2.png",
+    "static/media/miniaPahuna.png": "/portfolio/static/media/miniaPahuna.d3ceb735f168e3dd09ce.png",
+    "static/media/miniaElCafecito.png": "/portfolio/static/media/miniaElCafecito.ce29e6d66a3bb2f49797.png",
     "static/media/miniaZino.png": "/portfolio/static/media/miniaZino.9474b6a374bd3ec03cd8.png",
+    "static/media/NewEcovoito.png": "/portfolio/static/media/NewEcovoito.048de52fe7487a95c029.png",
+    "static/media/miniaEcovoito.png": "/portfolio/static/media/miniaEcovoito.ec2aa9bb3fe83c68e9fb.png",
     "static/media/logipro.jpg": "/portfolio/static/media/logipro.4cf6044b23625f617ba8.jpg",
+    "static/media/miniaYuka.png": "/portfolio/static/media/miniaYuka.4411d4de9e2a596c9eec.png",
+    "static/media/miniaCocoonMoi.png": "/portfolio/static/media/miniaCocoonMoi.145a64434e9b38e7be97.png",
     "index.html": "/portfolio/index.html",
-    "main.b31842f0.css.map": "/portfolio/static/css/main.b31842f0.css.map",
-    "main.63c1103d.js.map": "/portfolio/static/js/main.63c1103d.js.map",
+    "main.cc9f67cb.css.map": "/portfolio/static/css/main.cc9f67cb.css.map",
+    "main.8b0b3569.js.map": "/portfolio/static/js/main.8b0b3569.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b31842f0.css",
-    "static/js/main.63c1103d.js"
+    "static/css/main.cc9f67cb.css",
+    "static/js/main.8b0b3569.js"
   ]
 }
