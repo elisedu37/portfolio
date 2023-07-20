@@ -29,7 +29,7 @@ const ProjectCard = ({ project, index }) => {
                 </div>
                 <div className='pastille'></div>
                 <h2>{project.title}</h2>
-                <div className='flex flex-col gap-4 px-12 py-4 '>
+                <div className='flex flex-col gap-4 px-6 py-6 sm:py-4 sm:px-12 '>
                     <p className='mr-44'>
                         Date du projet : {project.date} | Classification : <strong>{project.category}</strong>
                     </p>

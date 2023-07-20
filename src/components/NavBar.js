@@ -9,6 +9,8 @@ import Pdf from '../assets/cv-elisegigot.pdf';
 
 /**
  * Barre de navigation + menu
+ * @param {boolean} isOpen menu ouvert / fermé
+ * @param {function} setIsOpen setter si menu ouvert / fermé
  * @returns {JSX}
  */
 const NavBar = ({ isOpen, setIsOpen }) => {
@@ -39,17 +41,17 @@ const NavBar = ({ isOpen, setIsOpen }) => {
                 <div className='fixed inset-0 z-20 flex items-center justify-center bg-[#fee0b3]'>
                     <ul onClick={toggleMenu} className='flex flex-col gap-24'>
                         <li>
-                            <Link to='/about' className='block text-5xl font-dancing '>
+                            <Link to='/about' className='block text-5xl font-dancing'>
                                 A propos
                             </Link>
                         </li>
                         <li>
-                            <Link to='/projects' className='block text-5xl font-dancing '>
+                            <Link to='/projects' className='block text-5xl font-dancing'>
                                 Portfolio
                             </Link>
                         </li>
                         <li>
-                            <a href={Pdf} className='block text-5xl font-dancing ' target='_blank' rel='noreferrer'>
+                            <a href={Pdf} className='block text-5xl font-dancing' target='_blank' rel='noreferrer'>
                                 Mon CV
                             </a>
                         </li>

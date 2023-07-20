@@ -22,7 +22,11 @@ export const Tabs = ({ tabs }) => {
             <div className='relative flex flex-col w-full min-w-0 mb-6 break-words '>
                 <div className='tab-content tab-space'>
                     {tabs.map((tab, index) => (
-                        <TabContent key={index} tabId={index + 1} openTab={openTab}>
+                        <div
+                            className={openTab === index + 1 ? 'block' : 'hidden'}
+                            id={'link' + (index + 1)}
+                            key={index}
+                        >
                             <div className='flex flex-col gap-8 mx-4 xl:flex-row lg:items-start'>
                                 <div className='flex-1'>{tab.content}</div>
                                 <div className='flex-1 p-12 -mt-12 -ml-12 lg:sticky lg:top-4 lg:overflow-hidden'>
@@ -38,7 +42,7 @@ export const Tabs = ({ tabs }) => {
                                     </div>
                                 </div>
                             </div>
-                        </TabContent>
+                        </div>
                     ))}
                 </div>
             </div>
@@ -70,20 +74,5 @@ const Tab = ({ tabId, title, openTab, setOpenTab }) => {
                 {title}
             </a>
         </li>
-    );
-};
-
-/**
- * Uniquement l'onglet
- * @param {number} tabId key de la tab
- * @param {number} openTab key de la tab ouverte
- * @param {object} children
- * @returns {JSX}
- */
-const TabContent = ({ tabId, openTab, children }) => {
-    return (
-        <div className={openTab === tabId ? 'block' : 'hidden'} id={'link' + tabId}>
-            {children}
-        </div>
     );
 };

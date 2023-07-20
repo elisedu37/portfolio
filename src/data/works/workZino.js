@@ -4,14 +4,14 @@ const workZino = {
     id: 'zino',
     title: 'Zino',
     category: 'Développement',
-    date: '01/02/2021',
+    date: '2021',
     content: (
         <div>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 Challenge "intégration web": 1 semaine pour intégrer une maquette en HTML / CSS et créer un thème custom
                 sur Wordpress.
             </p>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 Le thème custom a permis d'avoir une partie administrateur et de créer facilement un site unique. Plus
                 tard, mon intégration a été reprise et améliorée pour le site officiel de Zino.
             </p>

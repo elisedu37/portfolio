@@ -7,7 +7,7 @@ const workEcovoito = {
     date: '2022',
     content: (
         <div>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 5 étudiants dont 2 designers et 3 développeurs (mon cas) se sont associés pour monter un projet comme
                 une start-up. Pour ma part je me suis occupé du développement de l'application. Le défi technique est de
                 créer des itinéraires et de calculer cette distance. Par la suite, cette donnée permet de calculer un

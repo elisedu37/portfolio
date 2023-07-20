@@ -16,8 +16,8 @@ const Breadcrumb = ({ activePage, path }) => {
                         Home /
                     </Link>
                 </li>
-                {path?.map((item, index) => (
-                    <li key={index}>
+                {path?.map((item) => (
+                    <li key={item.label}>
                         <div className='flex items-center'>
                             <Link to={item.path} className='inline-flex items-center text-sm font-medium text-gray-700'>
                                 {item.label} /

@@ -4,22 +4,22 @@ const workUrbanTrail = {
     id: 'urban',
     title: 'Urban',
     category: 'UX / UI Design',
-    date: 'XX/XX/XXXX',
+    date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est
                 le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur commande au
                 magasin.
             </p>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
                 L'objectif est de faire ses courses de manière durable, considérée et respectueuse de l'environnement.
             </p>
             <p>Page imaginée: Accueil, catalogue de produit et une fiche produit</p>
         </div>
     ),
-    skills: ['Compétence 1', 'Compétence 2', 'Compétence 3'],
+    skills: ['Adobe XD', 'Wireframe', 'Conception UI'],
     more: true,
     image: urbanImage,
     actions: [{ id: 'urban_site', text: 'Visiter le site', link: 'http://lien-du-site.com', icon: 'Planet' }],

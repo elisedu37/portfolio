@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 // Icone
 import { DownloadSimple } from 'phosphor-react';
 // Images et PDF
-import template from '../assets/Template-1.png';
+import home from '../assets/home.png';
 import Pdf from '../assets/cv-elisegigot.pdf';
 
 /**
@@ -58,7 +58,7 @@ const Home = ({ isOpen }) => {
                     </div>
                 </div>
                 <div id='pattern' className='flex flex-col justify-center w-full bg-no-repeat bg-contain md:w-3/5'>
-                    <img src={template} alt='home' />
+                    <img src={home} alt='home' />
                 </div>
             </div>
         </div>

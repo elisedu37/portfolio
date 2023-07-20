@@ -8,12 +8,12 @@ const workCarte = {
     date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est
                 le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur commande au
                 magasin.
             </p>
-            <p className='mr-44'>
+            <p className='m-0 sm:mr-44'>
                 Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
                 L'objectif est de faire ses courses de manière durable, considérée et respectueuse de l'environnement.
             </p>
