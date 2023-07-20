@@ -1,3 +1,4 @@
+import { Planet } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
 /**
@@ -13,7 +14,7 @@ const ProjectCard = ({ project, index }) => {
         >
             <div className='w-full m-auto overflow-hidden rounded h-96 lg:h-max lg:w-96'>
                 <div className='transition-transform duration-500 ease-in-out transform h-max hover:scale-110'>
-                    <img src={project.image} alt='' className='object-cover h-max ' />
+                    <img src={project.image} alt='' className='object-cover w-full h-max' />
                 </div>
             </div>
 
@@ -30,7 +31,7 @@ const ProjectCard = ({ project, index }) => {
                     <p className='mr-44'>
                         Date du projet : {project.date} | Classification : {project.category}
                     </p>
-                    <div className='mr-44'>{project?.content}</div>
+                    <div>{project?.content}</div>
                     <div className='flex gap-4'>
                         {project.more && (
                             <Link
@@ -42,12 +43,12 @@ const ProjectCard = ({ project, index }) => {
                         )}
                         {project?.actions?.map((action) => {
                             return (
-                                <button
-                                    className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'
-                                    key={action.id}
-                                >
+                                <a href={action.link} className='flex items-center' key={action.id}>
+                                    <span className='mr-2'>
+                                        <Planet />
+                                    </span>
                                     {action.text}
-                                </button>
+                                </a>
                             );
                         })}
                     </div>

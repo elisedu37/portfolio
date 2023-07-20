@@ -19,7 +19,7 @@ const About = () => {
 
             <section className='flex flex-wrap w-full gap-8 m-auto my-8 max-w-screen-2xl'>
                 {tabs.map((callout) => (
-                    <div key={callout.id} className='flex-1 bg-white rounded shadow'>
+                    <div key={callout.id} className='flex-1 bg-white rounded shadow min-w-[20rem]'>
                         <Link to={callout.id}>
                             <div className='p-4'>
                                 <div className='relative flex justify-center h-64 overflow-hidden rounded'>
@@ -37,7 +37,7 @@ const About = () => {
                                     </div>
                                 </div>
 
-                                <div className='mt-8 '>{callout.description}</div>
+                                <div className='mt-8 text-base'>{callout.description}</div>
                             </div>
                         </Link>
                     </div>

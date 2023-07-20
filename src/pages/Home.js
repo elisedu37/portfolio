@@ -35,21 +35,21 @@ const Home = ({ isOpen }) => {
                         </h1>
                     )}
                     <div className='flex flex-col gap-2'>
-                        <p className='text-xl'>
+                        <p className='sm:text-xl'>
                             Conceptrice et développeuse de logiciels et de sites internet depuis 2 ans, je suis
                             spécialisé dans le framework React JS.
                         </p>
-                        <p className='text-xl'>
+                        <p className='sm:text-xl'>
                             Vous pouvez découvrir mes créations et consulter mon CV pour en savoir plus sur mon
                             parcours.
                         </p>
                     </div>
                     <div className='flex gap-4'>
-                        <button className='px-4 py-2 bg-orange-200 rounded w-fit hover:bg-orange-300'>
+                        <button className='px-4 py-2 text-sm bg-orange-200 rounded w-fit hover:bg-orange-300 sm:text-base'>
                             Mon portfolio
                         </button>
 
-                        <a href={Pdf} className='flex items-center'>
+                        <a href={Pdf} className='flex items-center text-sm sm:text-base'>
                             <span className='mr-2'>
                                 <DownloadSimple />
                             </span>

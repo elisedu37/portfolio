@@ -1,3 +1,4 @@
+import { useState } from 'react';
 // Navigation
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Pages
@@ -6,14 +7,13 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Legacy from './pages/Legacy';
 import InvalidePage from './pages/InvalidePage';
-// Composants
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 import Skills from './pages/About/Skills';
 import Experiences from './pages/About/Experiences';
 import Parcours from './pages/About/Parcours';
 import ProjetDetail from './pages/ProjectDetails';
-import { useState } from 'react';
+// Composants
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
     // base de l'url
