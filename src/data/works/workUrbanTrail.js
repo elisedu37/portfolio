@@ -22,7 +22,6 @@ const workUrbanTrail = {
     skills: ['Adobe XD', 'Wireframe', 'Conception UI'],
     more: true,
     image: urbanImage,
-    actions: [{ id: 'urban_site', text: 'Visiter le site', link: 'http://lien-du-site.com', icon: 'Planet' }],
     singleProjectContent: (
         <>
             <p className='font-semibold text-orange-400'>2022</p>

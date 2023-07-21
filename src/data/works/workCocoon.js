@@ -1,94 +1,96 @@
 import cocoonImage from '../../assets/portfolio/miniatures/miniaCocoonMoi.png';
 
 const workCocoon = {
-    id: 'cocoon',
+    id: 'cocoonmoi',
     title: 'Cocoon Moi',
     category: 'Développement',
     date: '2021',
     content: (
         <div className='flex flex-col gap-4'>
             <p className='m-0 sm:mr-44'>
-                Le projet Cocoon Moi était une collaboration entre deux personnes, travaillant dans le domaine du web et
-                du design, et Mme Christine Barge, notre commanditaire. L'objectif était de développer son activité de
-                massage pour bébé en créant une identité de marque cohérente et en mettant en place une présence en
-                ligne efficace.
+                "Cocoon Moi" est un projet tutoré d'une durée d'un an réalisé lors de mon DUT MMI (Métiers du Multimédia
+                et de l'Internet). Par équipe de deux, nous devions aider notre commanditaire.
+            </p>
+            <p className='m-0 sm:mr-44'>
+                Nos missions étaient les suivantes : créer le cahier des charges, définir le nom de l'entreprise, le
+                logo, sa charte graphique, imaginer le site vitrine et établir un plan de communication.
             </p>
             <p>
-                Nos missions dans ce projet étaient les suivantes : création du cahier des charges, définir le nom, le
-                logo et la charte graphique, imaginer le site vitrine et établir un plan de communication
+                Ces éléments avaient pour but d'aider notre commanditaire à développer son activité de massage pour
+                bébé.
+            </p>
+            <p>
+                Depuis, notre commanditaire utilise quotidiennement nos visuels et a réussi à passer d'une activité
+                occasionnelle à son travail à temps plein.
             </p>
         </div>
     ),
-    skills: ['Maquettage', 'Bootstrap'],
+    skills: ['Identité visuelle', 'UX / UI Design', 'Bootstrap'],
     more: true,
     image: cocoonImage,
     actions: [{ id: 'cocoon_site', text: 'Visiter le site', link: 'https://www.cocoonmoi.fr/', icon: 'Planet' }],
     singleProjectContent: (
         <>
-            <p className='font-semibold text-orange-200'>2022</p>
-            <h1 className='mt-2 text-3xl font-bold '>UX / UI Design</h1>
+            <p className='font-semibold text-orange-200'>2021</p>
+            <h1 className='mt-2 text-3xl font-bold '>Développement</h1>
             <div className='flex flex-col gap-4 mt-4 leading-7'>
                 <p>
                     <span className='font-semibold'>Compétences : </span>
-                    Conception d'interfaces, Prototypage
+                    Identité visuelle, conception d'interfaces et développement
                 </p>
                 <p>
-                    <span className='font-semibold'>Outil : </span>
-                    Figma
+                    <span className='font-semibold'>Outils : </span>
+                    Figma, HTML, CSS, Boostrap, Illustrator, Canva
                 </p>
                 <p className='m-0 sm:mr-44'>
-                    Le projet Cocoon Moi était une collaboration entre deux personnes, travaillant dans le domaine du
-                    web et du design, et Mme Christine Barge, notre commanditaire. L'objectif était de développer son
-                    activité de massage pour bébé en créant une identité de marque cohérente et en mettant en place une
-                    présence en ligne efficace.
+                    "Cocoon Moi" est un projet tutoré d'une durée d'un an réalisé lors de mon DUT MMI (Métiers du
+                    Multimédia et de l'Internet). En équipe de deux, nous avions pour mission d'aider notre
+                    commanditaire.
                 </p>
                 <p>
-                    Nos missions dans ce projet étaient les suivantes : création du cahier des charges, définir le logo
-                    et la charte graphique, imaginer le site vitrine et établir un plan de communication
-                </p>
-                <h2>En détails</h2>
-                <p>
-                    1. Créer un cahier des charges : Nous avons travaillé en étroite collaboration avec Mme Christine
-                    Barge pour comprendre ses besoins, ses objectifs et son public cible. Nous avons documenté ces
-                    informations dans un cahier des charges détaillé, qui servirait de guide pour la création de la
-                    marque et du site web.
+                    Nos missions étaient les suivantes : créer le cahier des charges, définir le nom de l'entreprise,
+                    concevoir le logo et sa charte graphique, imaginer le site vitrine et établir un plan de
+                    communication.
                 </p>
                 <p>
-                    2. Définir le nom de l'entreprise : Nous avons brainstormé et exploré différentes options pour
-                    trouver un nom percutant et représentatif de l'activité de massage pour bébé. Après plusieurs
-                    échanges et discussions avec le commanditaire, nous avons déterminé le nom "Cocoon Moi", qui
-                    évoquait parfaitement l'ambiance douce et réconfortante du massage pour bébé.
+                    Ces éléments avaient pour but d'aider notre commanditaire à développer son activité de massage pour
+                    bébé.
+                </p>
+                <h2>En détail</h2>
+                <p>
+                    <span className='font-semibold'> 1. Créer un cahier des charges : </span>
+                    lors de la conception de ce document, nous avons défini et compris plus en détail les besoins et les
+                    objectifs de notre commanditaire. Ce cahier des charges nous a servi de guide pour l'ensemble des
+                    missions, par exemple la création de la marque et du site web.
                 </p>
                 <p>
-                    3. Créer un logo et sa charte graphique : Nous avons conçu un logo pour Cocoon Moi en utilisant des
-                    outils tels qu'Illustrator. Le logo représentait l'idée de douceur et de confort, avec des couleurs
-                    apaisantes et des formes organiques. En plus du logo, nous avons également créé une charte graphique
-                    comprenant des éléments visuels cohérents tels que les typographies, les couleurs et les motifs.
+                    <span className='font-semibold'> 2. Définir le nom de l'entreprise : </span>
+                    nous avons brainstormé et exploré différentes options pour trouver un nom représentatif de son
+                    activité de massage pour bébé. Après plusieurs échanges, nous avons déterminé le nom "Cocoon Moi",
+                    qui évoquait l'ambiance et les valeurs de l'entreprise.
                 </p>
                 <p>
-                    4. Créer un site vitrine : Nous avons développé un site vitrine pour Cocoon Moi en utilisant
-                    Bootstrap, un framework de développement web. Le site présentait l'activité de massage pour bébé,
-                    les services proposés, les informations sur Mme Christine Barge et les témoignages des clients
-                    satisfaits. Nous avons veillé à ce que le site soit convivial, esthétiquement agréable et facile à
-                    naviguer pour les visiteurs.
+                    <span className='font-semibold'> 3. Créer un logo et sa charte graphique : </span>
+                    la demande était simple, le logo devait représenter un bébé, la douceur et le confort, avec des
+                    couleurs apaisantes. La charte graphique, quant à elle, devait comprendre les typographies, les
+                    couleurs et des visuels, etc.
                 </p>
                 <p>
-                    5. Établir un plan de communication digitale et print : Nous avons élaboré un plan de communication
-                    pour promouvoir Cocoon Moi, en utilisant à la fois des supports numériques et imprimés. Nous avons
-                    créé des visuels attractifs et engageants à l'aide d'outils tels que Canva, pour les partager sur
-                    les réseaux sociaux et les utiliser dans des campagnes publicitaires imprimées.
+                    <span className='font-semibold'> 4. Créer un site vitrine : </span>
+                    pour présenter l'activité de massage pour bébé, les services proposés, les informations sur Mme
+                    Christine Barge et les témoignages, j'ai pris en charge intégralement cette partie. Pour cela, j'ai
+                    utilisé Bootstrap. J'ai veillé à retranscrire les mêmes valeurs que dans l'identité visuelle et à ce
+                    que le site soit convivial, esthétiquement agréable et facile à naviguer.
+                </p>
+                <p>
+                    <span className='font-semibold'> 5. Établir un plan de communication digitale et print : </span>
+                    nous avons créé des visuels à l'aide de Canva, pour la création de cartes de visite, de flyers, etc.
+                    Pour les réseaux sociaux, nous avons indiqué le fonctionnement et les bonnes pratiques à appliquer.
                 </p>
                 <h2>Bilan</h2>
                 <p>
-                    Les outils principaux utilisés dans le cadre du projet Cocoon Moi étaient Bootstrap pour le
-                    développement du site web, Illustrator pour la création du logo et Canva pour la conception de
-                    visuels. Ces outils nous ont permis de réaliser un travail de qualité et de créer une identité de
-                    marque cohérente pour Cocoon Moi.
-                </p>
-                <p>
-                    Grâce à notre collaboration avec Mme Christine Barge et à notre expertise en web et design, nous
-                    avons pu contribuer au développement de son activité de massage pour bébé en lui offrant une
-                    présence en ligne professionnelle et une image de marque distincte.
+                    Depuis, notre commanditaire utilise quotidiennement nos visuels et a réussi à passer d'une activité
+                    occasionnelle à son travail à temps plein.
                 </p>
             </div>
         </>

@@ -1,4 +1,4 @@
-import { FigmaLogo, Planet } from 'phosphor-react';
+import { FigmaLogo, GithubLogo, Planet } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
 /**
@@ -20,7 +20,7 @@ const ProjectCard = ({ project, index }) => {
                 </div>
             </div>
 
-            <div className='relative flex flex-col items-start flex-1 w-full gap-4 p-0 pt-6 bg-white rounded'>
+            <div className='relative flex flex-col items-start flex-1 w-full p-0 pt-6 bg-white rounded'>
                 <div className='card'>
                     <p className='font-bold'>Compétences</p>
                     {project?.skills?.map((skill, index) => {
@@ -53,7 +53,13 @@ const ProjectCard = ({ project, index }) => {
                                     rel='noreferrer'
                                 >
                                     <span className='mr-2'>
-                                        {action.icon === 'FigmaLogo' ? <FigmaLogo /> : <Planet />}
+                                        {action.icon === 'FigmaLogo' ? (
+                                            <FigmaLogo />
+                                        ) : action.icon === 'GitHub' ? (
+                                            <GithubLogo />
+                                        ) : (
+                                            <Planet />
+                                        )}
                                     </span>
                                     {action.text}
                                 </a>

@@ -1,9 +1,11 @@
 // Projets
+import workCampBooking from './works/workCampBooking';
 import workCarte from './works/workCarte';
 import workCocoon from './works/workCocoon';
 import workConcession from './works/workConcession';
 import workEcovoito from './works/workEcovoito';
 import workElCafecito from './works/workElCafecito';
+import workGallery from './works/workGallery';
 import workImaaagery from './works/workImaaagery';
 import workNewEcovoito from './works/workNewEcovoito';
 import workPToujours from './works/workPToujours';
@@ -32,4 +34,6 @@ export const projects = [
     workUrbanTrail,
     workYuka,
     workZino,
+    workCampBooking,
+    workGallery,
 ];

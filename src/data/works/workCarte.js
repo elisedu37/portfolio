@@ -1,7 +1,7 @@
 import carteImage from '../../assets/portfolio/miniatures/miniaCarte.png';
 
 const workCarte = {
-    id: 'carte',
+    id: 'alacarte',
     title: 'À la carte',
     type: 'perso',
     category: 'UX / UI Design',
@@ -9,7 +9,7 @@ const workCarte = {
     content: (
         <div className='flex flex-col gap-4'>
             <p className='m-0 sm:mr-44'>
-                "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est
+                "À la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est
                 le suivant : les clients peuvent commander des produits en vrac via le site et retirer leur commande au
                 magasin.
             </p>
@@ -19,9 +19,9 @@ const workCarte = {
             </p>
             <p>
                 La page d'accueil explique au consommateur la marche à suivre pour commander, la méthode dont la
-                boutique fonctionne et met en avant les produits phares. L'objectif est mettre en confiance
-                l'utilisateur pour qu'il effectue ses courses de manière durable, considérée et respectueuse de
-                l'environnement.
+                boutique fonctionne et met en avant les produits phares. L'objectif est de mettre en confiance
+                l'utilisateur pour qu'il effectue ses achats de manière durable, responsable et respectueuse de
+                l'environnement...
             </p>
         </div>
     ),
@@ -43,13 +43,12 @@ const workCarte = {
             <div className='flex flex-col gap-4 mt-4 leading-7'>
                 <p>
                     <span className='font-semibold'>Compétences : </span>
-                    Conception d'interfaces, Prototypage
+                    Conception d'interfaces, prototypage
                 </p>
                 <p>
                     <span className='font-semibold'>Outil : </span>
                     Figma
                 </p>
-
                 <p>
                     "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept
                     est le suivant : les clients peuvent commander des produits en vrac via le site et retirer leur
@@ -59,74 +58,44 @@ const workCarte = {
                     J'ai réalisé les trois pages principales : la page d'accueil, le catalogue de produits et une fiche
                     produit.
                 </p>
-
                 <h2>Le public visé</h2>
-
                 <p>
-                    "A la carte" est une boutique fictive, se situant dans une ville moyenne. Les clients qui commande
-                    en click and collect sont par conséquent dans une zone géographique proche pour pouvoir passer
+                    "A la carte" est une boutique fictive, située dans une ville moyenne. Les clients qui utilisent le
+                    service de click and collect se trouvent donc dans une zone géographique proche, pour pouvoir passer
                     facilement récupérer leur commande.
                 </p>
                 <p>
                     <span className='font-semibold'>Cible principale : </span> Les consommateurs souhaitant réduire
-                    leurs déchets et de préserver l'environnement. Ces personnes cherchent des moyens pratiques pour
-                    adopter un mode de vie durable. Ils sont intéressés par les produits en vrac et cherchent des
-                    alternatives écologiques aux emballages jetables.
+                    leurs déchets et préserver l'environnement. Ils cherchent des solutions pratiques pour adopter un
+                    mode de vie durable et sont intéressés par les produits en vrac pour limiter les emballages
+                    jetables.
                 </p>
                 <p>
                     <span className='font-semibold'> Cible secondaire : </span>
-                    Les consommateurs sensibles aux problématiques environnementales mais qui n'ont pas encore adopté
-                    une démarche zéro déchet. Grace au site, ils peuvent faire leurs premiers pas de manière simple et
-                    rapide.
+                    Les consommateurs ouverts à la démarche zéro déchet et sensibles aux problématiques
+                    environnementales. Grâce au site, ils peuvent faire leurs premiers pas de manière simple et rapide.
                 </p>
-                <h2>En détails</h2>
+                <h2>En détail</h2>
 
                 <p>
-                    <span className='font-semibold'> Accueil : </span>
-                    La page d'accueil explique au consommateur la marche à suivre pour commander, la méthode dont la
-                    boutique fonctionne et met en avant les produits phares. L'objectif est mettre en confiance
-                    l'utilisateur pour qu'il effectue ses courses de manière durable, considérée et respectueuse de
-                    l'environnement.
+                    <span className='font-semibold'> La page d'accueil </span>
+                    explique au consommateur la marche à suivre pour commander, la méthode dont la boutique fonctionne
+                    et met en avant les produits phares. L'objectif est de mettre en confiance l'utilisateur pour qu'il
+                    effectue ses achats de manière durable, responsable et respectueuse de l'environnement L'interface
+                    est conçue pour accueillir les internautes de manière conviviale et informative.
                 </p>
                 <p>
-                    Accueil : La page d'accueil du site "A la carte" est conçue pour accueillir les visiteurs de manière
-                    conviviale et informative. Elle met en avant les valeurs du projet, mettant l'accent sur la
-                    réduction des déchets, la durabilité et le respect de l'environnement. Une bannière attrayante
-                    présente le slogan du site et invite les utilisateurs à découvrir le catalogue de produits.
+                    <span className='font-semibold'> La page du catalogue de produits </span>
+                    référence tous les articles disponibles et ils sont organisés par catégories. Chaque produit est
+                    accompagné de ses labels : bio, etc. Les utilisateurs ont la possibilité d'ajouter les produits à
+                    leur panier, ce qui les redirige vers la page du produit.
                 </p>
                 <p>
-                    <span className='font-semibold'> Catalogue de produits : </span>
-                    La page du catalogue de produits offre une vue d'ensemble des articles disponibles à l'achat en
-                    vrac. Les produits sont organisés de manière intuitive, par catégories telles que les produits
-                    alimentaires, les produits de soin, les produits ménagers, etc. Les utilisateurs peuvent naviguer
-                    facilement à travers les différentes catégories et filtrer les produits en fonction de leurs besoins
-                    spécifiques. Chaque produit est accompagné d'une courte description mettant en valeur ses
-                    caractéristiques, son origine éventuelle, et les avantages écologiques liés à son utilisation. Des
-                    informations sur le mode de conditionnement et les options de quantité sont également fournies. Les
-                    utilisateurs ont la possibilité d'ajouter les produits à leur panier d'achat directement depuis la
-                    page du catalogue.
-                </p>
-                <p>
-                    <span className='font-semibold'> Fiche produit : </span>
-                    En cliquant sur un produit spécifique, les utilisateurs accèdent à la fiche produit détaillée. Cette
-                    page fournit des informations approfondies sur le produit, telles que sa composition, son mode
-                    d'utilisation, ses certifications éventuelles, etc. Des images de haute qualité illustrent le
-                    produit sous différents angles. La fiche produit inclut également des suggestions d'utilisation
-                    écologique ou de combinaison avec d'autres produits complémentaires. Les utilisateurs peuvent lire
-                    les avis et commentaires d'autres clients ayant déjà acheté le produit, ce qui leur permet de
-                    prendre une décision d'achat éclairée. Un bouton "Ajouter au panier" est présent sur la fiche
-                    produit, permettant aux utilisateurs de sélectionner la quantité souhaitée et d'ajouter le produit à
-                    leur panier d'achat. Ils peuvent ensuite continuer leur navigation ou accéder directement à leur
-                    panier pour finaliser leur commande.
-                </p>
-                <h2>Bilan</h2>
-
-                <p>
-                    Ces pages, pensées pour faciliter la découverte des produits et la prise de décision d'achat,
-                    contribuent à offrir une expérience utilisateur agréable et intuitive sur le site "A la carte". En
-                    combinant une interface utilisateur intuitive et des fonctionnalités centrées sur le zéro déchet, "A
-                    la carte" vise à offrir une plateforme pratique et engageante pour les consommateurs soucieux de
-                    l'environnement, les encourageant ainsi à adopter un mode de vie plus durable et responsable.
+                    <span className='font-semibold'> La fiche produit </span>
+                    fournit des informations supplémentaires sur le produit, telles que sa composition, son mode
+                    d'utilisation etc. Le bouton "Ajouter au panier" permet aux utilisateurs de sélectionner la quantité
+                    souhaitée et d'ajouter le produit à leur panier d'achat. Ils peuvent ensuite continuer ou accéder à
+                    leur panier.
                 </p>
             </div>
         </>

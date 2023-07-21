@@ -17,7 +17,6 @@ const workPahuna = {
     skills: ['Photoshop'],
     more: true,
     image: pahunaImage,
-    actions: [{ id: 'pahuna_site', text: 'Visiter le site', link: 'http://lien-du-site.com', icon: 'Planet' }],
     singleProjectContent: (
         <>
             <p className='font-semibold text-orange-400'>2022</p>

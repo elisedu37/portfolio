@@ -4,26 +4,38 @@ const workConcession = {
     id: 'concession',
     title: 'Concession automobile',
     category: 'Développement',
-    date: '2022',
+    date: '2020',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'></p>
+            <p className='m-0 sm:mr-44'>
+                Le projet consiste à développer un logiciel de gestion pour une concession automobile. Ce logiciel
+                regroupe les différentes informations, celles concernant les personnes, les véhicules et les achats
+                effectués.
+            </p>
+            <p>
+                Les principales fonctionnalités du logiciel sont la gestion des personnes, des véhicules et des achats.
+            </p>
+            <p>
+                Pour chaque, il est possible de lister les éléments existants, d'ajouter de nouveaux éléments, de les
+                modifier et de les supprimer.
+            </p>
+            <p>
+                Lors de la suppression d'un élément, le logiciel effectue une vérification pour ne pas impacter les
+                autres données. Par exemple, si on supprime un véhicule, cela peut avoir un impact sur les personnes et
+                les achats.
+            </p>
         </div>
     ),
-    skills: ['PHP'],
+    skills: ['PHP', 'mySQL', 'CRUD'],
     image: concessionImage,
-    actions: [{ id: 'concession_site', text: 'Lien du GIT', link: 'http://lien-du-site.com', icon: 'GitHub' }],
-    singleProjectContent: (
-        <>
-            <p className='font-semibold text-orange-400'>2022</p>
-            <h1 className='mt-2 text-3xl font-bold '>UX / UI Design</h1>
-            <div className='flex flex-col gap-4 mt-2 leading-7'>
-                <p></p>
-            </div>
-        </>
-    ),
-    singleImg: false,
-    singleImgUrl: [],
+    actions: [
+        {
+            id: 'concession_site',
+            text: 'Lien du GIT',
+            link: 'https://github.com/elisedu37/concession-automobile',
+            icon: 'GitHub',
+        },
+    ],
 };
 
 export default workConcession;
