@@ -1,4 +1,4 @@
-import { FigmaLogo, FileImage, GithubLogo, Planet, YoutubeLogo } from 'phosphor-react';
+import { FigmaLogo, FileImage, Files, GithubLogo, Planet, YoutubeLogo } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
 /**
@@ -26,7 +26,7 @@ const ProjectCard = ({ project, index }) => {
 
             <div className='relative flex flex-col items-start flex-1 w-full p-0 pt-4 bg-white rounded'>
                 <div className='card'>
-                    <p className='font-bold'>Compétences</p>
+                    <p className='font-bold'> {project?.skills?.length > 1 ? 'Compétences' : 'Compétence'}</p>
                     {project?.skills?.map((skill, index) => {
                         return <p key={index}>{skill}</p>;
                     })}
@@ -65,6 +65,8 @@ const ProjectCard = ({ project, index }) => {
                                             <YoutubeLogo />
                                         ) : action.icon === 'Image' ? (
                                             <FileImage />
+                                        ) : action.icon === 'File' ? (
+                                            <Files />
                                         ) : (
                                             <Planet />
                                         )}

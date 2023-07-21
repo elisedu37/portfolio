@@ -7,11 +7,11 @@ const workElCafecito = {
     date: '2021',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 Dans le cadre de mon stage de DUT, j'ai eu l'opportunité de travaillé pour El Cafecito en tant que
                 motion designer.
             </p>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 El Cafecito est un café et atelier de torréfaction situé à Tours, géré par Karla DERENNE, proposant des
                 produits provenant du Guatemala.
             </p>

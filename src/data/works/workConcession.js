@@ -7,7 +7,7 @@ const workConcession = {
     date: '2020',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 Le projet consiste à développer un logiciel de gestion pour une concession automobile. Ce logiciel
                 regroupe les différentes informations, celles concernant les personnes, les véhicules et les achats
                 effectués.

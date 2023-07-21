@@ -7,7 +7,7 @@ const workEcovoito = {
     date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 Cinq étudiants se sont associés pour monter ce projet. L'objectif était de créer une application visant
                 à aider les entreprises à évaluer et à réduire le taux de CO2 émis par les employés lors de leurs
                 déplacements entre leur domicile et leur lieu de travail.

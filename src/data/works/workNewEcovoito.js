@@ -8,7 +8,7 @@ const workNewEcovoito = {
     date: '2023',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 En repensant l'UI/UX d'Ecovoito, nous visons à offrir une expérience utilisateur améliorée, intuitive et
                 esthétiquement plaisante. Nous souhaitons encourager davantage de personnes à adopter des trajets
                 écologiques et contribuer ainsi à la réduction des émissions de CO2.

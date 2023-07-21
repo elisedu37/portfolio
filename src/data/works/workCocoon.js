@@ -7,11 +7,11 @@ const workCocoon = {
     date: '2021',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 "Cocoon Moi" est un projet tutoré d'une durée d'un an réalisé lors de mon DUT MMI (Métiers du Multimédia
                 et de l'Internet). Par équipe de deux, nous devions aider notre commanditaire.
             </p>
-            <p className='m-0 sm:mr-44'>
+            <p className='mr'>
                 Nos missions étaient les suivantes : créer le cahier des charges, définir le nom de l'entreprise, le
                 logo, sa charte graphique, imaginer le site vitrine et établir un plan de communication.
             </p>
@@ -42,7 +42,7 @@ const workCocoon = {
                     <span className='font-semibold'>Outils : </span>
                     Figma, HTML, CSS, Boostrap, Illustrator, Canva
                 </p>
-                <p className='m-0 sm:mr-44'>
+                <p className='mr'>
                     "Cocoon Moi" est un projet tutoré d'une durée d'un an réalisé lors de mon DUT MMI (Métiers du
                     Multimédia et de l'Internet). En équipe de deux, nous avions pour mission d'aider notre
                     commanditaire.

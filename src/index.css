@@ -44,4 +44,7 @@
     .pastille {
         @apply absolute right-0 w-6 h-6 bg-orange-200 rounded-full top-8;
     }
+    .mr {
+        @apply m-0 sm:mr-44;
+    }
 }

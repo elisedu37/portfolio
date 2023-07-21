@@ -2,25 +2,27 @@ import randomImage from '../../assets/portfolio/miniatures/Random.png';
 
 const workRandom = {
     id: 'random',
-    title: 'Random',
+    title: 'Random Delights',
     category: 'Développement',
     date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='m-0 sm:mr-44'>
-                "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept est
-                le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur commande au
-                magasin.
+            <p className='mr'>
+                Le concept de Random Delights est de proposer de recettes aléatoires et variés aux utilisateurs.
             </p>
-            <p className='m-0 sm:mr-44'>
-                Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
-                L'objectif est de faire ses courses de manière durable, considérée et respectueuse de l'environnement.
+            <p className='mr'>
+                Pour réaliser ce site, j'utilise l'API "themealdb", qui met à disposition une vaste sélection de
+                recettes. Grâce à cette API, les utilisateurs peuvent découvrir de nouveaux plats.
             </p>
-            <p>Page imaginée: Accueil, catalogue de produit et une fiche produit</p>
+            <p>
+                Chaque recette présentée est accompagnée d'un aperçu grâce à une image représentative. Le nom de la
+                recette, des tags descriptifs, une liste d'ingrédients nécessaires, les instructions de préparation et,
+                parfois un lien externe vers une vidéo détaillant la préparation du plat.
+            </p>
+            <p> Avec une approche, chaque visite sur le site est unique.</p>
         </div>
     ),
     skills: ['React JS'],
-    more: true,
     image: randomImage,
     actions: [
         {
@@ -30,32 +32,6 @@ const workRandom = {
             icon: 'Planet',
         },
     ],
-    singleProjectContent: (
-        <>
-            <p className='font-semibold text-orange-400'>2022</p>
-            <h1 className='mt-2 text-3xl font-bold '>UX / UI Design</h1>
-            <div className='flex flex-col gap-4 mt-2 leading-7'>
-                <p>
-                    "A la carte" est un projet de maquettage pour un site e-commerce basé sur le zéro déchet. Le concept
-                    est le suivant : les clients peuvent commander des produits en vrac en ligne et retirer leur
-                    commande au magasin.
-                </p>
-                <p>
-                    Le site que j’ai imaginé explique la marche à suivre pour commander et met en valeur les produits.
-                    L'objectif est de faire ses courses de manière durable, considérée et respectueuse de
-                    l'environnement.
-                </p>
-                <ul className='gap-4'>
-                    <li>
-                        <span className='font-semibold'>Outils utilisés. </span>
-                        Jira, YouTrack, Gitlab
-                    </li>
-                </ul>
-            </div>
-        </>
-    ),
-    singleImg: false,
-    singleImgUrl: [],
 };
 
 export default workRandom;
