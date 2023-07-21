@@ -6,7 +6,7 @@ import { useParams } from 'react-router';
 // Composant
 import Breadcrumb from '../components/Breadcrumb';
 // Icones
-import { FigmaLogo, Planet } from 'phosphor-react';
+import { FigmaLogo, GithubLogo, Planet, YoutubeLogo } from 'phosphor-react';
 
 /**
  * Page single project
@@ -40,7 +40,15 @@ const ProjetDetail = () => {
                                         rel='noreferrer'
                                     >
                                         <span className='mr-2'>
-                                            {action.icon === 'FigmaLogo' ? <FigmaLogo /> : <Planet />}
+                                            {action.icon === 'FigmaLogo' ? (
+                                                <FigmaLogo />
+                                            ) : action.icon === 'GitHubLogo' ? (
+                                                <GithubLogo />
+                                            ) : action.icon === 'YoutubeLogo' ? (
+                                                <YoutubeLogo />
+                                            ) : (
+                                                <Planet />
+                                            )}
                                         </span>
                                         {action.text}
                                     </a>

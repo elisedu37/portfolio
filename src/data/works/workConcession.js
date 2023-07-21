@@ -33,7 +33,7 @@ const workConcession = {
             id: 'concession_site',
             text: 'Lien du GIT',
             link: 'https://github.com/elisedu37/concession-automobile',
-            icon: 'GitHub',
+            icon: 'GitHubLogo',
         },
     ],
 };

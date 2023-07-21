@@ -1,4 +1,4 @@
-import { FigmaLogo, GithubLogo, Planet } from 'phosphor-react';
+import { FigmaLogo, FileImage, GithubLogo, Planet, YoutubeLogo } from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
 /**
@@ -14,13 +14,17 @@ const ProjectCard = ({ project, index }) => {
         >
             <div className='w-full m-auto overflow-hidden rounded h-96 lg:h-max lg:w-96'>
                 <div className='transition-transform duration-500 ease-in-out transform h-max hover:scale-110'>
-                    <Link to={`/project/${project.id}`}>
+                    {project.more ? (
+                        <Link to={`/project/${project.id}`}>
+                            <img src={project.image} alt='' className='object-cover w-full h-max' />
+                        </Link>
+                    ) : (
                         <img src={project.image} alt='' className='object-cover w-full h-max' />
-                    </Link>
+                    )}
                 </div>
             </div>
 
-            <div className='relative flex flex-col items-start flex-1 w-full p-0 pt-6 bg-white rounded'>
+            <div className='relative flex flex-col items-start flex-1 w-full p-0 pt-4 bg-white rounded'>
                 <div className='card'>
                     <p className='font-bold'>Compétences</p>
                     {project?.skills?.map((skill, index) => {
@@ -55,8 +59,12 @@ const ProjectCard = ({ project, index }) => {
                                     <span className='mr-2'>
                                         {action.icon === 'FigmaLogo' ? (
                                             <FigmaLogo />
-                                        ) : action.icon === 'GitHub' ? (
+                                        ) : action.icon === 'GitHubLogo' ? (
                                             <GithubLogo />
+                                        ) : action.icon === 'YoutubeLogo' ? (
+                                            <YoutubeLogo />
+                                        ) : action.icon === 'Image' ? (
+                                            <FileImage />
                                         ) : (
                                             <Planet />
                                         )}
