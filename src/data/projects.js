@@ -6,7 +6,6 @@ import workConcession from './works/workConcession';
 import workEcovoito from './works/workEcovoito';
 import workElCafecito from './works/workElCafecito';
 import workGallery from './works/workGallery';
-import workImaaagery from './works/workImaaagery';
 import workNewEcovoito from './works/workNewEcovoito';
 import workPToujours from './works/workPToujours';
 import workPahuna from './works/workPanuha';
@@ -28,12 +27,11 @@ export const projects = [
     workPlantShop,
     workRandom,
     workYuka,
-    workImaaagery,
-    workNewEcovoito,
+    workCampBooking,
     workPToujours,
-    workRetouche,
+    workNewEcovoito,
     workUrbanTrail,
     workZino,
-    workCampBooking,
+    workRetouche,
     workGallery,
 ];

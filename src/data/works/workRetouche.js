@@ -7,7 +7,7 @@ const workRetouche = {
     date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='mr'></p>
+            <p className='mr'>3 images avec retouche, recoloration </p>
         </div>
     ),
     skills: ['Photoshop'],

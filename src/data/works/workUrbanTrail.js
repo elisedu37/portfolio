@@ -2,12 +2,15 @@ import urbanImage from '../../assets/portfolio/miniatures/miniaUrbanTrail.png';
 
 const workUrbanTrail = {
     id: 'urban',
-    title: 'Urban',
+    title: 'Urban Trail',
     category: 'UX / UI Design',
     date: '2022',
     content: (
         <div className='flex flex-col gap-4'>
-            <p className='mr'></p>
+            <p className='mr'>
+                projet avec lequel j'ai commencé ... maquette du site internet, analyse de la demande, support de
+                communication
+            </p>
         </div>
     ),
     skills: ['Adobe XD', 'Wireframe', 'Conception UI'],

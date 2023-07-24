@@ -9,9 +9,18 @@ const workNewEcovoito = {
     content: (
         <div className='flex flex-col gap-4'>
             <p className='mr'>
-                En repensant l'UI/UX d'Ecovoito, nous visons à offrir une expérience utilisateur améliorée, intuitive et
-                esthétiquement plaisante. Nous souhaitons encourager davantage de personnes à adopter des trajets
-                écologiques et contribuer ainsi à la réduction des émissions de CO2.
+                Un an avant, avec 4 autres étudiants nous avons imaginé Ecovoito. L'objectif était de créer une
+                application visant à aider les entreprises à évaluer et à réduire le taux de CO2 émis par les employés
+                lors de leurs déplacements entre leur domicile et leur lieu de travail. A ce moment là, je m'étais
+                principalement occupé du développement de l'application.
+            </p>
+            <p>
+                J'ai décidé de repenser l'UI/UX de l'application Ecovoito pour obtenir une meilleure expérience
+                utilisateur et un résultat plus professionnel.
+            </p>
+            <p>
+                J'ai également créer un site vitrine dans le même univers graphique et améliorer le back-office destiné
+                aux entreprises
             </p>
         </div>
     ),
@@ -31,11 +40,6 @@ const workNewEcovoito = {
             <p className='font-semibold text-orange-400'>2023</p>
             <h1 className='mt-2 text-3xl font-bold '>UX / UI Design</h1>
             <div className='flex flex-col gap-4 mt-2 leading-7'>
-                <p>
-                    Nous avons entrepris de repenser l'interface utilisateur (UI) et l'expérience utilisateur (UX) de
-                    l'application Ecovoito, ainsi que de son site internet. Notre objectif principal est d'améliorer la
-                    convivialité, l'attrait visuel et la facilité d'utilisation de la plateforme.
-                </p>
                 <p>Objectifs clés de la refonte :</p>
                 <p>
                     Simplification de la navigation : Nous allons revoir l'architecture de l'application et du site pour

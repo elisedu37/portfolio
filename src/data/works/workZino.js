@@ -8,13 +8,16 @@ const workZino = {
     content: (
         <div>
             <p className='mr'>
-                Challenge "intégration web": 1 semaine pour intégrer une maquette en HTML / CSS et créer un thème custom
-                sur Wordpress.
+                Le projet Zino a été réalisé dans le cadre d'un challenge d'intégration web. L'objectif était de créer
+                en une semaine un site en utilisant une maquette fournie, en intégrant le design en HTML/CSS et en
+                développant un thème personnalisé Wordpress.
             </p>
-            <p className='mr'>
-                Le thème custom a permis d'avoir une partie administrateur et de créer facilement un site unique. Plus
-                tard, mon intégration a été reprise et améliorée pour le site officiel de Zino.
+            <p>
+                La création d'un thème personnalisé sur Wordpress a été une étape clé du projet. Cela a permis de mettre
+                en place une partie administrative permettant de gérer facilement le contenu du site et de le
+                personnaliser selon les besoins spécifiques de Zino.
             </p>
+            <p>Plus tard, mon intégration a été reprise et améliorée pour le site officiel de Zino.</p>
         </div>
     ),
     skills: ['Wordpress', 'Woocommerce', 'HTML5 / CSS3'],

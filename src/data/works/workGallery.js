@@ -8,7 +8,7 @@ const workGallery = {
     content: (
         <div className='flex flex-col gap-4'>
             <p className='mr'>
-                est un projet dont l'objectif est de créer une galerie d'images en utilisant une mosaïque aléatoire. A
+                C'est un projet dont l'objectif est de créer une galerie d'images en utilisant une mosaïque aléatoire. A
                 chaque visite sur le site, l'expérience est différente.
             </p>
         </div>
